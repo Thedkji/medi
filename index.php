@@ -18,6 +18,7 @@
     ?>
 
     <header class="medi-header">
+        <?php include_once './components/header/header.php'; ?>
     </header>
 
     <main>
