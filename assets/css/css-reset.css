@@ -10,3 +10,56 @@
 .container {
     padding: 0 120px;
 }
+
+.swiper-button-prev::after {
+    font-size: 20px;
+    color: white;
+    background-color: #00b8ff;
+    padding: 8px 13px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+}
+
+.swiper-button-prev:hover::after {
+    background-color: #00415a;
+    border: none;
+}
+
+.swiper-button-next::after {
+    font-size: 20px;
+    color: white;
+    background-color: #00b8ff;
+    padding: 8px 13px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+}
+
+.swiper-button-next:hover::after {
+    background-color: #00415a;
+    border: none;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 3px solid #111;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: black;
+}
+
+.color-primary {
+    color: #00b8ff;
+}
+
+.color-secondary {
+    color: #00415a;
+}
+
+.my-20 {
+    margin-block: 20px;
+}
