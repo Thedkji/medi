@@ -186,7 +186,7 @@
 
 #medi-home .option-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 35px;
     margin-top: 30px;
@@ -211,14 +211,15 @@
     #medi-home .option-container .option-item {
         height: 100px;
     }
-    #medi-home .option-container{
-        grid-template-columns: repeat(3,1fr);
+
+    #medi-home .option-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width:814px) {
-    #medi-home .option-container{
-        grid-template-columns: repeat(2,1fr);
+    #medi-home .option-container {
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 }
@@ -230,9 +231,17 @@
 }
 
 #medi-home .medi-body-feature-show .swiper {
-    width: 80%;
+    width: 60%;
     padding-bottom: 50px;
     margin: 30px auto;
+}
+
+@media (max-width:780px) {
+
+    #medi-home .medi-body-feature-show .swiper {
+        width: 90%;
+    }
+
 }
 
 @media (max-width:680px) {
