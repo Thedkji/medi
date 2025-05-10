@@ -1,10 +1,11 @@
 #medi-home .medi-banner {
     width: 100%;
+    position: relative;
 }
 
 #medi-home .medi-banner img {
     width: 100%;
-    height: 100%;
+    height: 550px;
 }
 
 #medi-home .medi-banner .swiper-slide {
@@ -15,16 +16,18 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 870px;
+    padding-left: clamp(15px, 15vw, 185px);
+    padding-right: clamp(15px, 25vw, 416px);
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h1 {
-    font-size: 33px;
+    font-size: clamp(20px, 2.5vw, 33px);
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h2 {
-    font-size: 48px;
+    font-size: clamp(24px, 4vw, 48px);
 }
+
 
 #medi-home .medi-banner .swiper-slide .text-inner a {
     display: inline-block;
@@ -43,7 +46,6 @@
 #medi-home .medi-banner .swiper-button-prev::after,
 #medi-home .medi-banner .swiper-button-next::after {
     position: relative;
-    bottom: 120px;
 }
 
 #medi-home .medi-banner .swiper-button-prev {
@@ -54,20 +56,29 @@
     background: rgb(0, 65, 90);
 }
 
+@media (max-width: 680px) {
+
+    #medi-home .medi-banner .swiper-button-next,
+    #medi-home .medi-banner .swiper-button-prev {
+        display: none;
+    }
+}
+
 #medi-home .medi-section section {
     height: 150px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     justify-content: space-between;
     align-items: center;
 }
 
 #medi-home .medi-section section div {
-    width: 292px;
+    max-width: 292px;
     height: 120px;
     color: white;
     border-right: 1px solid white;
-    align-content: center;
+    align-content: start;
     text-align: center;
 }
 
@@ -88,6 +99,7 @@
     color: rgb(0, 65, 90);
     position: relative;
     padding: 40px 0 0 0;
+    font-size: clamp(25px, 2vw, 35px);
 }
 
 #medi-home .medi-body h1:first-child::after {
@@ -102,18 +114,31 @@
     transform: translateX(-50%);
 }
 
-#medi-home .medi-body .content {
+#medi-home .medi-body>.content {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: min(70px, 5vw);
     justify-content: space-between;
     margin-top: 40px;
 }
 
-#medi-home .medi-body .content img:first-child {
-    width: 555px;
-    max-width: 555px;
-    height: 358px;
+#medi-home .medi-body .content img {
+    width: clamp(350px, 50vw, 555px);
+    height: clamp(200px, 30vw, 308px);
+}
+
+@media (max-width:780px) {
+    #medi-home .medi-body>.content {
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    #medi-home .medi-body .content img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
 #medi-home .medi-body .content-item h2 {
@@ -129,7 +154,7 @@
 }
 
 #medi-home .medi-body-button {
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: rgb(215, 236, 249);
     padding: 60px;
 }
@@ -160,35 +185,241 @@
 }
 
 #medi-home .option-container {
-    display: flex;
-    gap: calc((100% - 288px * 4) / 3);
-    row-gap: 30px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 35px;
     margin-top: 30px;
 }
 
+#medi-home .option-container .option-item button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
 #medi-home .option-container .option-item {
-    width: 288px;
+    width: 100%;
     height: 130px;
 }
-#medi-home .medi-body-feature-show{
+
+@media (max-width:1094px) {
+    #medi-home .option-container .option-item {
+        height: 100px;
+    }
+    #medi-home .option-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:814px) {
+    #medi-home .option-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+
+#medi-home .medi-body-feature-show {
     margin-top: 50px;
     background-color: rgb(215, 236, 249);
 }
-#medi-home .medi-body-feature-show .swiper{
-    width: 1000px;
-    height: 606px;
+
+#medi-home .medi-body-feature-show .swiper {
+    width: 80%;
+    padding-bottom: 50px;
     margin: 30px auto;
 }
-#medi-home .medi-body-feature-show .swiper .swiper-slide{
+
+@media (max-width:680px) {
+
+    #medi-home .medi-body-feature-show .swiper-button-next::after,
+    #medi-home .medi-body-feature-show .swiper-button-prev::after {
+        display: none;
+    }
+
+}
+
+#medi-home .medi-body-feature-show .swiper .swiper-slide {
     margin: auto;
     text-align: center;
 }
-#medi-home .medi-body-feature-show .swiper .swiper-slide img{
+
+#medi-home .medi-body-feature-show .swiper .swiper-slide img {
     width: 95%;
-    height: 90%;
+    max-height: 90%;
     margin: auto;
 }
-#medi-home .medi-body-feature-show .swiper .swiper-pagination{
+
+#medi-home .medi-body-feature-show .swiper .swiper-pagination {
     bottom: 30px;
+}
+
+#medi-home .medi-body-evaluate .swiper {
+    /* background-color: red; */
+    width: 70%;
+    margin: 20px auto;
+}
+
+
+
+#medi-home .medi-body-evaluate .swiper .item {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+#medi-home .medi-body-evaluate .swiper .item img {
+    width: 260px;
+    height: 173px;
+    border-radius: 10px;
+}
+
+@media (max-width:1178px) {
+    #medi-home .medi-body-evaluate .swiper {
+        width: 90%;
+    }
+}
+
+@media (max-width:924px) {
+    #medi-home .medi-body-evaluate .swiper .item {
+        flex-direction: column;
+    }
+
+    #medi-home .medi-body-evaluate {
+        padding-bottom: 20px;
+    }
+
+    #medi-home .medi-body-evaluate .swiper .swiper-slide {
+        height: 450px;
+    }
+
+    #medi-home .medi-body-evaluate .swiper .item img {
+        margin: auto;
+        width: 100%;
+        height: clamp(240px, 40vh, 280px);
+        object-fit: cover;
+    }
+
+    #medi-home .medi-body-evaluate .swiper .swiper-button-next::after,
+    #medi-home .medi-body-evaluate .swiper .swiper-button-prev::after {
+        display: none;
+    }
+}
+
+
+#medi-home .medi-body-evaluate .swiper .item>.content {
+    color: #777777;
+}
+
+#medi-home .medi-body-evaluate .swiper .item>.content>p:nth-child(1) {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#medi-home .medi-banner-2 img {
+    width: 100%;
+}
+
+#medi-home .medi-section-icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 30px auto;
+}
+
+#medi-home .medi-section-icon div {
+    text-align: center;
+}
+
+@media (max-width:1180px) {
+    #medi-home .medi-section-icon {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:868px) {
+    #medi-home .medi-section-icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:600px) {
+    #medi-home .medi-section-icon {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+#medi-home .medi-section-icon img {
+    max-width: 220px;
+}
+
+#medi-home .medi-news {
+    background-color: #D7ECF9;
+    padding-bottom: 180px;
+}
+
+#medi-home .medi-news>.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 30px auto;
+}
+
+@media screen and (max-width: 850px) {
+    #medi-home .medi-news>.news-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+#medi-home .medi-news>.news-container .new-item {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#medi-home .medi-news>.news-container .new-item img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+
+#medi-home .medi-news>.news-container .new-item .content {
+    padding: 10px;
+}
+
+#medi-home .medi-news>.news-container .new-item .content p:first-child {
+    color: #555555;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#medi-home .medi-news>.news-container .new-item .content p:nth-child(2) {
+    color: #00B8FF;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#medi-home .medi-news .btn-list {
+    text-align: center;
+    display: block;
+}
+
+#medi-home .medi-news .btn-list button {
+    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
