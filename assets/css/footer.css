@@ -1,0 +1,550 @@
+#row-1414367170 {
+    max-width: 900px;
+}
+
+#row-1414367170 > .col > .col-inner {
+    border-radius: 25px;
+}
+
+#col-2025112393 > .col-inner {
+    border-radius: 25px;
+}
+
+#banner-1727893074 .bg.bg-loaded {
+    background-image: url(https://phanmemmedi.com/wp-content/uploads/2023/10/Frame-48.png);
+}
+
+#banner-1727893074 .bg {
+    background-position: 44% 63%;
+}
+
+#banner-1727893074 .ux-shape-divider--top svg {
+    height: 150px;
+    --divider-top-width: 100%;
+}
+
+#banner-1727893074 .ux-shape-divider--bottom svg {
+    height: 150px;
+    --divider-width: 100%;
+}
+
+#banner-1727893074 .is-border {
+    border-radius: 25px;
+    border-width: 0px 0px 0px 0px;
+}
+
+#gap-2097714087 {
+    padding-top: 30px;
+    display: block;
+    height: auto;
+}
+
+#text-box-1449854445 {
+    width: 60%;
+}
+
+#text-box-1449854445 .text-box-content {
+    font-size: 100%;
+}
+
+.wpcf7-form .hidden-form-inputs {
+    display: none;
+}
+.gallery, .row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.container, .container-width, .full-width .ubermenu-nav, .row, body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.col, .columns, .gallery-item {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+#row-1001541703 > .col > .col-inner {
+    border-radius: 25px;
+}
+#col-160412469 > .col-inner {
+    border-radius: 25px;
+}
+.col-inner {
+    height: 100% !important;
+}
+.col-inner {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+.luantesst {
+    border-radius: 40px;
+}
+.banner {
+    min-height: 30px;
+    position: relative;
+    width: 100%;
+}
+.fill {
+    height: 100%;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bottom, .fill {
+    bottom: 0;
+}
+.fill {
+    height: 100%;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bottom, .fill {
+    bottom: 0;
+}
+.banner-bg {
+    overflow: hidden;
+}
+#banner-63466613 .bg.bg-loaded {
+    background-image: url(/assets/imgs/banner_footer.png);
+}
+
+#banner-63466613 .bg {
+    background-position: 44% 63%;
+}
+.has-hover .bg, .has-hover [class*=image-] img {
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+}
+.bg-loaded {
+    opacity: 1;
+}
+.bg {
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.bg-fill {
+    background-position: 50% 50%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.is-border {
+    border: 1px solid #ececec;
+    border-radius: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+html :where([style*=border-width]) {
+    border-style: solid;
+}
+.row .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 1170px;
+}
+.banner-layers {
+    height: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.container, .container-width, .full-width .ubermenu-nav, .row {
+    max-width: 1080px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container, .container-width, .full-width .ubermenu-nav, .row, body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;    
+}
+.flex_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.flex_footer1{
+    max-width: 1170px;
+}
+.banner-layers>* {
+    position: absolute !important;
+}
+#text-box-918424071 {
+    width: 60%;
+}
+#text-box-918424071 .text-box-content {
+    font-size: 100%;
+}
+
+.text-box .text-box-content {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: 10;
+}
+.dark, .dark p, .dark td {
+    color: #f1f1f1;
+}
+.text-center {
+    text-align: center;
+}
+.dark h3{
+    color: #fff;
+}
+.banner h3 {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    padding: 0;
+}
+
+.banner h3 {
+    font-size: 2em;
+}
+h3{
+    font-weight: 700;
+    font-style: normal;
+}
+#gap-170723792 {
+    padding-top: 30px;
+}
+
+.text-center>div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.dark .wpcf7 {
+    color: #fff;
+}
+.wpcf7 {
+    color: #333;
+    position: relative;
+}
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+.wpcf7 p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin-bottom: 1.3em;
+}
+ol, ul {
+    margin-top: 0;
+    padding: 0;
+}
+ul {
+    list-style: disc;
+}
+blockquote, dl, figure, form, ol, p, pre, ul {
+    margin-bottom: 1.3em;
+}
+/* .dark .form-flat input:not([type=submit]) {
+    background-color: hsla(0, 0%, 100%, .2) !important;
+    border-color: hsla(0, 0%, 100%, .09);
+    border-radius: 99px;
+    box-shadow: none;
+    color: currentColor;
+    width: 100%;
+    height: 39px;
+} */
+/* First input: Banner section (Nhập email hoặc số điện thoại...) */
+.banner-layers.container .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required[type="text"] {
+    background-color: hsla(0, 0%, 100%, .2) !important;
+    border-color: hsla(0, 0%, 100%, .09);
+    border-radius: 99px;
+    box-shadow: none;
+    color: currentColor;
+    width: 518px;
+    height: 39px;
+}
+
+/* Second input: Footer section (Email nhận thông tin ưu đãi) */
+.footer-widgets.footer-2.dark .wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required[type="email"] {
+    background-color: hsla(0, 0%, 100%, .2) !important;
+    border-color: hsla(0, 0%, 100%, .09);
+    border-radius: 99px;
+    box-shadow: none;
+    color: currentColor;
+    width: 100%;
+    height: 39px;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
+    position: absolute;
+    top: 19px;
+    right: 2px;
+    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    border: none;
+    width: 164px;
+    height: 39px;
+    border-radius: 99px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+.wpcf7-form-control.wpcf7-text::placeholder {
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+}
+.banner-layers.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#text-box-1449854445 {
+    position: static;
+}
+
+.fill.banner-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+}
+.dark input[type='submit']:not(.is-form) {
+    background-color: #00415a;
+}
+.dark input[type=submit] {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+    width: 115px;
+    height: 39px;
+}
+.form-flat input {
+    border-radius: 99px;
+}
+.col-inner a .icon_footer{
+    width: 40px;
+    height: 40px;
+}
+/* footer */
+.footer-wrapper {
+    background-color: #333;
+    color: #fff;
+    height: 100%;
+    min-height: 500px;
+}
+
+.footer-widgets.footer.footer-2.dark {
+    padding: 180px 0;
+    background: #171717;
+}
+
+.row.dark.large-columns-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.col.pb-0 {
+    padding-bottom: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.widget_custom_html .textwidget img.header-logo {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.subcribe-footer .wpcf7-form {
+    margin-top: 20px;
+}
+
+.flex-row.form-flat.medium-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col.flex-grow.medring-footer-sub {
+    flex-grow: 1;
+}
+
+.wpcf7-form-control.wpcf7-text.wpcf7-email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background: #444;
+    color: #fff;
+}
+
+.wpcf7-form-control.wpcf7-submit.button-medring {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wpcf7-form-control.wpcf7-submit.button-medring:hover {
+    background: #0056b3;
+}
+
+.col-inner h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.ux-menu.stack.stack-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.ux-menu-link.flex.menu-item {
+    margin-bottom: 10px;
+}
+
+.ux-menu-link__link.flex {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.ux-menu-link__link.flex:hover {
+    color: #007bff;
+}
+
+.ux-menu-link__icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.col-inner img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.fixed-sidebar-vns img {
+    width: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.absolute-footer.dark {
+    background: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container.clearfix {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-primary.pull-left {
+    float: left;
+}
+
+.menu-secondary-container .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-secondary-container .footer-nav li {
+    margin-right: 20px;
+}
+
+.menu-secondary-container .footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-secondary-container .footer-nav li a:hover {
+    color: #007bff;
+}
+
+.copyright-footer {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.back-to-top.button.icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;border: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.back-to-top.button.icon:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .col.pb-0 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-primary.pull-left {
+        float: none;
+        text-align: center;
+    }
+
+    .menu-secondary-container .footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-secondary-container .footer-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

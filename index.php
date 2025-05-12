@@ -34,7 +34,9 @@
         ?>
     </main>
 
-    <footer></footer>
+    <footer>
+        <?php include_once './components/footer/footer.php'; ?>
+    </footer>
 </body>
 <script src="./assets/library/swiper-bundle.min.js"></script>
 
