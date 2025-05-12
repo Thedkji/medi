@@ -16,10 +16,6 @@
         background-image: url('./assets/imgs/Frame-162-1.png');
     }
 
-    /* #medi-home .option-container .option-item:nth-child(2) button {
-        background-image: url('./assets/imgs/kham-tongquat.png');
-    } */
-
     #medi-home .option-container .option-item span {
         font-size: 16px;
         display: inline-block;
@@ -41,9 +37,8 @@
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
-                        <h1 class="color-secondary">Clinic <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
+                        <h1 class="color-secondary">Clinic <span>365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
                         <p>&nbsp;</p>
-                        <h2 class="color-primary my-20">Giá chỉ từ<br>350.000 VNĐ/tháng</h2>
                         <a href="/dang-ky-dung-thu/" target="_self">
                             <span>Dùng thử miễn phí ngay</span>
                         </a>
@@ -53,25 +48,6 @@
                     <a href="###">
                         <img src="./assets/imgs/banner-tang-tranh-trang-tri-phong-kham-1400x512.png" alt="">
                     </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="###">
-                        <img src="./assets/imgs/Frame-45-4-1400x536.png" alt="">
-                    </a>
-                    <div class="text-inner container">
-                        <div id="text-138976528" class="text h1-medi-ldp">
-                            <h1 class="color-primary">Clinic <span class="color-365">365</span> – Phần mềm quản lý phòng khám</h1>
-                            <h1 >Nha Khoa chuẩn Việt All In One</h1>
-                        </div>
-                        <p>&nbsp;</p>
-                        <div class="my-20">
-                            <h2 class="color-primary">Giá chỉ từ 350.000 VNĐ/tháng</h2>
-                            <h2 class="color-primary">Mua 12 tháng tặng 3 tháng</h2>
-                        </div>
-                        <a href="/phan-mem-quan-ly-phong-kham-nha-khoa-uu-dai/" target="_self">
-                            <span>Liên hệ ngay</span>
-                        </a>
-                    </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="###">
@@ -109,7 +85,7 @@
     </div>
 
     <div class="medi-body container">
-        <h1>CLINIC <span class="color-365">365</span> – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
+        <h1>CLINIC <span>365</span> – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
             <img src="./assets/imgs/luachon-medi.png" alt="">
             <div class="content-item">
@@ -123,11 +99,11 @@
         </div>
         <div class="content">
             <div class="content-item">
-                <h2>NÂNG CAO 30% HIỆU SUẤT CÔNG VIỆC</h2>
+                <h2>GIẢM 50% CHI PHÍ VẬN HÀNH</h2>
                 <ul>
-                    <li>Tăng tốc độ xử lý hồ sơ bệnh án</li>
-                    <li>Tiết kiệm thời gian, không trùng lịch khám, hiệu suất không bị gián đoạn.</li>
-                    <li>Tích hợp đầy đủ tính năng: Quản lý lịch hẹn, Quản lý thăm khám khách hàng, Quản lý kho thuốc, Quản lý liệu trình, Quản lý báo cáo,…</li>
+                    <li>Quản lý phòng khám mọi lúc mọi nơi</li>
+                    <li>Triển khai trên nền tảng điện toán đám mây bạn có thể cài đặt và vận hành đơn giản, nhanh chóng</li>
+                    <li>Theo dõi thu chi một cách tự động, hiệu quả và minh bạch</li>
                 </ul>
             </div>
             <img src="./assets/imgs/man-hinh-quan-ly-thu-chi.png" alt="">
@@ -135,21 +111,23 @@
         <div class="content">
             <img src="./assets/imgs/man-hinh-nang-cao-chat-luong-dich-vu-phong-kham.png" alt="">
             <div class="content-item">
-                <h2>NÂNG CAO 30% HIỆU SUẤT CÔNG VIỆC</h2>
+                <h2>NÂNG CAO CHẤT LƯỢNG DỊCH VỤ PHÒNG KHÁM</h2>
                 <ul>
-                    <li>Tăng tốc độ xử lý hồ sơ bệnh án</li>
-                    <li>Tiết kiệm thời gian, không trùng lịch khám, hiệu suất không bị gián đoạn.</li>
-                    <li>Tích hợp đầy đủ tính năng: Quản lý lịch hẹn, Quản lý thăm khám khách hàng, Quản lý kho thuốc, Quản lý liệu trình, Quản lý báo cáo,…</li>
+                    <li>Tối ưu quy trình đón khách hàng chỉ 30 giây</li>
+                    <li>Truy xuất dữ liệu nhanh chóng, chính xác và bảo mật</li>
+                    <li>Có sẵn mẫu phiếu khám bệnh, đơn thuốc dành cho phòng khám</li>
+                    <li>Báo cáo, thống kê chính xác trực quan theo thời gian thực</li>
                 </ul>
             </div>
         </div>
         <div class="content">
             <div class="content-item">
-                <h2>NÂNG CAO 30% HIỆU SUẤT CÔNG VIỆC</h2>
+                <h2>GIẢI QUYẾT 95% VẤN ĐỀ QUẢN LÝ THỦ CÔNG</h2>
                 <ul>
-                    <li>Tăng tốc độ xử lý hồ sơ bệnh án</li>
-                    <li>Tiết kiệm thời gian, không trùng lịch khám, hiệu suất không bị gián đoạn.</li>
-                    <li>Tích hợp đầy đủ tính năng: Quản lý lịch hẹn, Quản lý thăm khám khách hàng, Quản lý kho thuốc, Quản lý liệu trình, Quản lý báo cáo,…</li>
+                    <li>Đơn giản hóa thủ tục hành chính, giảm thiểu chi phí hồ sơ giấy tờ</li>
+                    <li>Tra cứu lịch sử khám bệnh và đơn thuốc</li>
+                    <li>Quản lý thông tin về khách hàng bao gồm hồ sơ bệnh án, lịch sử bệnh và các thông tin chẩn đoán khác</li>
+                    <li>Tối ưu hóa quy trình xét nghiệm, tự động đánh giá, hiển thị kết quả trên phiếu xét nghiệm</li>
                 </ul>
             </div>
             <img src="./assets/imgs/giai-quyet-95-van-de-thu-cong.png" alt="">
@@ -157,11 +135,11 @@
         <div class="content">
             <img src="./assets/imgs/X2-trai-nghiem-khach-hang.png" alt="">
             <div class="content-item">
-                <h2>NÂNG CAO 30% HIỆU SUẤT CÔNG VIỆC</h2>
+                <h2>GIA TĂNG X2 TRẢI NGHIỆM KHÁCH HÀNG</h2>
                 <ul>
-                    <li>Tăng tốc độ xử lý hồ sơ bệnh án</li>
-                    <li>Tiết kiệm thời gian, không trùng lịch khám, hiệu suất không bị gián đoạn.</li>
-                    <li>Tích hợp đầy đủ tính năng: Quản lý lịch hẹn, Quản lý thăm khám khách hàng, Quản lý kho thuốc, Quản lý liệu trình, Quản lý báo cáo,…</li>
+                    <li>Giảm thiểu thời gian chờ đợi cho bệnh nhân</li>
+                    <li>Hoàn thành thông tin ca khám nhanh chóng</li>
+                    <li>Giảm thiểu sai sót trong quá trình thăm khám</li>
                 </ul>
             </div>
         </div>
@@ -275,25 +253,25 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature2.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature3.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature4.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature5.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature6.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./assets/imgs/Quan-ly-lich-hen-kham.png" alt="">
+                    <img src="./assets/imgs/clinic/feature7.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-pagination"></div>
