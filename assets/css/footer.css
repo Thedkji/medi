@@ -342,7 +342,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
 
 input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     position: absolute;
-    top: 19px;
+    bottom: 0;
     right: 0px;
 }
 
@@ -376,7 +376,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 }
 
 .footer-widgets.footer.footer-2.dark {
-    padding-block: 180px;
+    padding-block: 200px;
     background: #171717;
 }
 
@@ -404,7 +404,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 
 .flex-row.form-flat.medium-flex-wrap {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .flex-col.flex-grow.medring-footer-sub {
@@ -414,7 +413,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 .wpcf7-form-control.wpcf7-text.wpcf7-email {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border: 1px solid #555;
     background: #444;
     color: #fff;
@@ -567,16 +566,18 @@ footer .positon-footer .input-email input::placeholder {
 footer .positon-footer .input-email button {
     position: absolute;
     right: 0;
-    width: 30%;
+    width: 35%;
     height: 100%;
     border-radius: 20px;
     border: none;
-    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     font-size: 17px;
     color: white;
     font-weight: bold;
 }
-
+footer .positon-footer .input-email button:hover {
+    background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
+}
 
 @media (max-width: 768px) {
     .col.pb-0 {
@@ -599,3 +600,4 @@ footer .positon-footer .input-email button {
         margin-bottom: 10px;
     }
 }
+

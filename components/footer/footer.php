@@ -9,7 +9,32 @@
         top: -20%;
         left: 50%;
         transform: translateX(-50%);
-        padding: 30px 100px;
+        padding: 30px 50px;
+    }
+    
+    @media (max-width: 900px) {
+        footer .positon-footer {
+            width: 85%;
+            padding: 40px 0;
+        }
+        .positon-footer .title h2 {
+            font-size: 20px;
+        }
+        footer .positon-footer .input-email button {
+            width: 100%;
+            font-size: 15px;
+        }
+        footer .input-email{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 5px;
+        }
+    }
+    @media (max-width: 770px) {
+        .flex_footer {
+            margin-top: 130px;
+            gap: 20px;
+        }
     }
 </style>
 <!-- #region -->
@@ -168,7 +193,7 @@
 
     <div class="positon-footer">
         <div class="title">
-            <h2>Clinic – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
+            <h2>CLINIC 365 – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
         </div>
 
         <div class="input-email">

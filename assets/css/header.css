@@ -1,15 +1,45 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
 .header-main .header-inner {
     display: flex; /* Giữ Flexbox */
     align-items: center; /* Căn giữa theo chiều dọc */
     width: 100%;
 }
 
+.header.transparent .header-bg-color,
+.header.transparent .header-bg-image,
+.header.transparent .header-bottom,
+.header.transparent .header-wrapper {
+    background-color: transparent;
+    background-image: none !important;
+    box-shadow: none;
+}
+
+.header.transparent.scrolled .header-bg-color,
+.header.transparent.scrolled .header-bg-image,
+.header.transparent.scrolled .header-bottom,
+.header.transparent.scrolled .header-wrapper {
+    background-color: #fff !important;
+    animation: menu-scroll 0.5s ease-in-out;
+    background-image: none !important;
+}
+@keyframes menu-scroll {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Đảm bảo header ở trạng thái fixed */
+.header.has-transparent,
+.header.show-on-scroll,
+.header.transparent {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 30;
+}
+/*  */
 .flex-col.logo {
     display: flex;
     align-items: center;
@@ -31,9 +61,6 @@ header.header {
     background: none !important;
 }
 
-.header.has-transparent, .header.show-on-scroll, .header.transparent {
-    position: absolute;
-}
 .header, .header-wrapper {
     background-position: 50% 0;
     background-size: cover;
@@ -45,11 +72,6 @@ header.header {
 .header{
     display: block;
     background: #fff !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-.header.transparent .header-bg-color, .header.transparent .header-bg-image, .header.transparent .header-bottom, .header.transparent .header-wrapper {
-    background-color: #fff !important;
-    background-image: none !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 .header, .header-wrapper {
@@ -79,11 +101,7 @@ header.header {
     justify-content: space-between;
     width: 100%;
 }
-.header.transparent .header-bg-color, .header.transparent .header-bg-image, .header.transparent .header-bottom, .header.transparent .header-wrapper {
-    background-color: transparent;
-    background-image: none !important;
-    box-shadow: none;
-}
+
 .header-bg-color, .header-bg-image {
     background-position: 50% 0;
     transition: background .4s;
@@ -100,7 +118,7 @@ header.header {
 }
 
 .button.secondary.is-gloss.is-large {
-    background: linear-gradient(90deg, #a18cd1 0%, #00c6fb 100%) !important;
+    background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     color: #fff !important;
     font-weight: bold;
     border: none;
@@ -110,12 +128,20 @@ header.header {
     transition: background 0.3s;
     margin-top: 20px;
 }
+/* .noopener.noreferrer{
+        background-image: linear-gradient(to left,
+    #00c853,   
+    #00bfa5,   
+    #00acc1,  
+    #3c78d8,
+    );
+} */
 .button.secondary.is-gloss.is-large:hover {
-    background: linear-gradient(90deg, #00c6fb 0%, #a18cd1 100%) !important;
+    background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     color: #fff !important;
 }
 .transparent #logo img {
-    max-height: 60px;
+    max-height: 55px;
     max-width: 200px;
 }
 .nav > li > a, .links > li > a {
@@ -142,6 +168,9 @@ a.button {
 .header-main .nav > li > a {
     line-height: 16px;
     color: #00415A;
+}
+.header-main .nav > li > a:hover {
+    color: #3c78d8;
 }
 .nav-size-large>li>a {
     font-size: 1em;
@@ -237,7 +266,7 @@ a.button {
         padding: 0;
         margin: 0;
     }
-    .mobile-menu-content ul li:last-child {
+    .mobile-menu-content ul li:l    t-child {
         margin-bottom: 0;
     }
     .mobile-menu-content .button {
@@ -298,7 +327,8 @@ a.button {
         transform: translateY(0) translateZ(1px);
         color: #fff;
         font-size: 40px;
-        margin-top: 8px;
+        margin-top: 0px;
+        margin-right: 20px;
     }
 
     /* menu cấp */
@@ -328,10 +358,20 @@ a.button {
         cursor: pointer;
         user-select: none;
     }
+    
     @keyframes fadeInDown {
         from { opacity: 0; transform: translateY(-10px);}
         to { opacity: 1; transform: translateY(0);}
     }
-}
+    .btn-desktop{
+        display: none;
+    }
 
+}
+@media (max-width: 680px) {
+    .transparent #logo img {
+        max-height: 45px;
+        max-width: 169px;
+    }
+}
 
