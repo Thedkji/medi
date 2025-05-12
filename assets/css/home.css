@@ -20,7 +20,7 @@
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h1 {
-    font-size: clamp(20px, 2.5vw, 33px);
+    font-size: clamp(20px, 5.5vw, 40px);
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h2 {
@@ -64,7 +64,7 @@
     background: #3c78d8;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 900px) {
 
     #medi-home .medi-banner .swiper-button-next,
     #medi-home .medi-banner .swiper-button-prev {
@@ -90,6 +90,9 @@
     #medi-home .medi-section section {
         grid-template-columns: repeat(2, 1fr);
     }
+    #medi-home .medi-section section div:nth-child(2) {
+        border-right: none;
+    }
 }
 
 #medi-home .medi-section section div {
@@ -99,6 +102,9 @@
     align-content: start;
     text-align: center;
     padding: 0 20px;
+}
+#medi-home .medi-section section div:last-child {
+    border-right: none;
 }
 
 #medi-home .medi-section section div h2 {
@@ -137,7 +143,6 @@
     display: flex;
     align-items: center;
     gap: min(70px, 5vw);
-    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -251,8 +256,7 @@
 }
 
 #medi-home .medi-body-feature-show .swiper {
-    width: 60%;
-    padding-bottom: 50px;
+    width: 70%;
     margin: 30px auto;
 }
 
@@ -264,7 +268,7 @@
 
 }
 
-@media (max-width:680px) {
+@media (max-width:900px) {
 
     #medi-home .medi-body-feature-show .swiper-button-next::after,
     #medi-home .medi-body-feature-show .swiper-button-prev::after {
@@ -279,13 +283,11 @@
 }
 
 #medi-home .medi-body-feature-show .swiper .swiper-slide img {
-    width: 95%;
-    max-height: 90%;
-    margin: auto;
-}
-
-#medi-home .medi-body-feature-show .swiper .swiper-pagination {
-    bottom: 30px;
+    width: 85%;
+    max-height: 450px;
+    object-fit: cover;
+    margin: 0 0 40px auto;
+    border-radius: 10px;
 }
 
 #medi-home .medi-body-evaluate {
@@ -322,10 +324,6 @@
 @media (max-width:924px) {
     #medi-home .medi-body-evaluate .swiper .item {
         flex-direction: column;
-    }
-
-    #medi-home .medi-body-evaluate {
-        padding-bottom: 20px;
     }
 
     #medi-home .medi-body-evaluate .swiper .swiper-slide {
