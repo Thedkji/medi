@@ -16,6 +16,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 50%;
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h1 {

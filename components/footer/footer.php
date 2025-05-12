@@ -45,7 +45,7 @@
         <div class="row dark large-columns-2 mb-0">
             <div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html">
                 <div class="textwidget custom-html-widget">
-                    <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-white.png">
+                    <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-blue.svg">
                     <br>
                     <p>Công ty MEDRiNG Vietnam International</p>
                     <p>Trụ sở: Tầng 7 tòa nhà CTM Complex, 139 Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số 2-4, Đường 8, p.3, q.7, Tp. HCM</p>
@@ -121,15 +121,17 @@
                                     </a>
                                 </div>
                             </div>
-                            <a target="_blank" href="https://www.youtube.com/@phanmemquanlyphongkhammedi" rel="noopener">
-                                <img class="icon_footer" style="margin-right:10px;margin-bottom: 10px;" src="./assets/imgs/youtube.png">
-                            </a>
-                            <a target="_blank" href="https://www.linkedin.com/company/medring/" rel="noopener">
-                                <img class="icon_footer" style="margin-right:10px;margin-bottom: 10px;" src="./assets/imgs/linken.png">
-                            </a>
-                            <a target="_blank" href="https://www.facebook.com/phanmemphongkhammedi/" rel="noopener">
-                                <img class="icon_footer" style="margin-right:10px;margin-bottom: 10px;" src="./assets/imgs/facebook.png">
-                            </a>
+                            <div class="icon">
+                                <a target="_blank" href="https://www.youtube.com/@phanmemquanlyphongkhammedi" rel="noopener">
+                                    <img class="icon_footer youtube" src="./assets/imgs/icons/youtube.png" alt="">
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/company/medring/" rel="noopener">
+                                    <img class="icon_footer linken" src="./assets/imgs/icons/linkedin.png" alt="">
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/phanmemphongkhammedi/" rel="noopener">
+                                    <img class="icon_footer facebook" src="./assets/imgs/icons/facebook.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div id="col-1966343056" class="col medium-6 small-12 large-6">
@@ -187,13 +189,13 @@
             </div>
         </div>
     </div> -->
-    <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active" id="top-link" aria-label="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+    <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active" id="top-link" aria-label="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#827676" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894z" />
         </svg></a>
 
     <div class="positon-footer">
         <div class="title">
-            <h2>CLINIC 365 – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
+            <h2>CLINIC <span class="color-365">365</span> – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
         </div>
 
         <div class="input-email">

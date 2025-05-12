@@ -41,7 +41,7 @@
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
-                        <h1 class="color-secondary">Clinic 365 – Phần mềm nhật bản quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
+                        <h1 class="color-secondary">Clinic <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
                         <p>&nbsp;</p>
                         <h2 class="color-primary my-20">Giá chỉ từ<br>350.000 VNĐ/tháng</h2>
                         <a href="/dang-ky-dung-thu/" target="_self">
@@ -60,13 +60,13 @@
                     </a>
                     <div class="text-inner container">
                         <div id="text-138976528" class="text h1-medi-ldp">
-                            <h1>Clinic – Phần mềm quản lý phòng khám</h1>
-                            <h1>Nha Khoa chuẩn Nhật All In One</h1>
+                            <h1 class="color-primary">Clinic <span class="color-365">365</span> – Phần mềm quản lý phòng khám</h1>
+                            <h1 >Nha Khoa chuẩn Việt All In One</h1>
                         </div>
                         <p>&nbsp;</p>
                         <div class="my-20">
                             <h2 class="color-primary">Giá chỉ từ 350.000 VNĐ/tháng</h2>
-                            <h2 class="color-secondary">Mua 12 tháng tặng 3 tháng</h2>
+                            <h2 class="color-primary">Mua 12 tháng tặng 3 tháng</h2>
                         </div>
                         <a href="/phan-mem-quan-ly-phong-kham-nha-khoa-uu-dai/" target="_self">
                             <span>Liên hệ ngay</span>
@@ -109,7 +109,7 @@
     </div>
 
     <div class="medi-body container">
-        <h1>CLINIC – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
+        <h1>CLINIC <span class="color-365">365</span> – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
             <img src="./assets/imgs/luachon-medi.png" alt="">
             <div class="content-item">
@@ -270,7 +270,7 @@
     </div>
 
     <div class="medi-body medi-body-feature-show">
-        <h1>TÍNH NĂNG ƯU VIỆT CỦA PHẦN MÊM CLINIC</h1>
+        <h1>TÍNH NĂNG ƯU VIỆT CỦA PHẦN MỀM CLINIC</h1>
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->

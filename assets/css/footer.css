@@ -311,6 +311,7 @@ ul {
     color: currentColor;
     width: 100%;
     height: 39px;
+    outline: none;
 }
 
 input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
@@ -344,6 +345,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     position: absolute;
     bottom: 0;
     right: 0px;
+    background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
+    background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
 
 .dark input[type='submit']:not(.is-form) {
@@ -365,6 +370,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 .col-inner a .icon_footer {
     width: 40px;
     height: 40px;
+    color: white;
 }
 
 /* footer */
@@ -377,7 +383,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 
 .footer-widgets.footer.footer-2.dark {
     padding-block: 200px;
-    background: #171717;
+    background: #3c78d8;
 }
 
 .row.dark.large-columns-2 {
@@ -526,11 +532,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border: 1px solid hsla(0, 0%, 100%, .2);
+    border: 1px solid #827676;
 }
 
 .back-to-top.button.icon:hover {
-    background: #0056b3;
+    background: #3c78d8;
+}
+.back-to-top.button.icon:hover svg {
+    fill: white;
 }
 
 footer {

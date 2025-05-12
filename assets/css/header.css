@@ -72,7 +72,6 @@ header.header {
 .header{
     display: block;
     background: #fff !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 .header, .header-wrapper {
     background-position: 50% 0;
