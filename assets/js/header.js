@@ -26,3 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const header = document.querySelector('.header.transparent');
+    if (header) {
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    }
+});

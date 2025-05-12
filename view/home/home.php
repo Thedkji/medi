@@ -87,7 +87,7 @@
     <div class="medi-body container">
         <h1>CLINIC <span>365</span> – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
-            <img src="./assets/imgs/luachon-medi.png" alt="">
+            <img src="./assets/imgs/clinic/HS-1.png" alt="">
             <div class="content-item">
                 <h2>NÂNG CAO 30% HIỆU SUẤT CÔNG VIỆC</h2>
                 <ul>
@@ -106,10 +106,10 @@
                     <li>Theo dõi thu chi một cách tự động, hiệu quả và minh bạch</li>
                 </ul>
             </div>
-            <img src="./assets/imgs/man-hinh-quan-ly-thu-chi.png" alt="">
+            <img src="./assets/imgs/clinic/HS-2.png" alt="">
         </div>
         <div class="content">
-            <img src="./assets/imgs/man-hinh-nang-cao-chat-luong-dich-vu-phong-kham.png" alt="">
+            <img src="./assets/imgs/clinic/HS-3.png" alt="">
             <div class="content-item">
                 <h2>NÂNG CAO CHẤT LƯỢNG DỊCH VỤ PHÒNG KHÁM</h2>
                 <ul>
@@ -130,10 +130,10 @@
                     <li>Tối ưu hóa quy trình xét nghiệm, tự động đánh giá, hiển thị kết quả trên phiếu xét nghiệm</li>
                 </ul>
             </div>
-            <img src="./assets/imgs/giai-quyet-95-van-de-thu-cong.png" alt="">
+            <img src="./assets/imgs/clinic/HS-4.png" alt="">
         </div>
         <div class="content">
-            <img src="./assets/imgs/X2-trai-nghiem-khach-hang.png" alt="">
+            <img src="./assets/imgs/clinic/HS-5.png" alt="">
             <div class="content-item">
                 <h2>GIA TĂNG X2 TRẢI NGHIỆM KHÁCH HÀNG</h2>
                 <ul>
