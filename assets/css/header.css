@@ -4,6 +4,23 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.header-main .header-inner {
+    display: flex; /* Giữ Flexbox */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 100%;
+}
+
+.flex-col.logo {
+    display: flex;
+    align-items: center;
+    /* Bỏ justify-content: center để logo không bị căn giữa trong khu vực của nó */
+}
+
+.flex-col.hide-for-medium.flex-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Đẩy menu về phía bên phải */
+}
 header.header {
     background-color: transparent !important;
 }
@@ -44,7 +61,7 @@ header.header {
     z-index: 30;
 }
 .transparent .header-main {
-    height: 100px;
+    padding: 20px 0;
 }
 .header-main {
     position: relative;
@@ -61,15 +78,6 @@ header.header {
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 100%;
-}
-.fill {
-    height: 100%;
-    left: 0;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 .header.transparent .header-bg-color, .header.transparent .header-bg-image, .header.transparent .header-bottom, .header.transparent .header-wrapper {
     background-color: transparent;
@@ -107,8 +115,8 @@ header.header {
     color: #fff !important;
 }
 .transparent #logo img {
-    max-height: 35px;
-    max-width: 143px;
+    max-height: 60px;
+    max-width: 200px;
 }
 .nav > li > a, .links > li > a {
     text-transform: none;
@@ -142,7 +150,8 @@ a.button {
     font-weight: 600;
     font-style: normal;
 }
-.container-width, .full-width .ubermenu-nav, .container, .row {
+
+/* .container-width, .full-width .ubermenu-nav, .container, .row {
     max-width: 1170px;
 }
 .container {
@@ -153,7 +162,7 @@ a.button {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
+} */
 
 /* mobile */
 

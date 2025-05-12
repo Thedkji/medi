@@ -62,7 +62,7 @@
         <div class="row dark large-columns-2 mb-0">
             <div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html">
                 <div class="textwidget custom-html-widget">
-                    <img class="header_logo header-logo" style="width: 150px;padding-bottom: 20px;" src="./assets/imgs/logomedifooter.png" alt="" width="150">
+                    <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-white.png">
                     <br>
                     <p>Công ty MEDRiNG Vietnam International</p>
                     <p>Trụ sở: Tầng 7 tòa nhà CTM Complex, 139 Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số 2-4, Đường 8, p.3, q.7, Tp. HCM</p>
