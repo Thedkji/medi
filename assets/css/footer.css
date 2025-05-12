@@ -484,6 +484,7 @@ footer .back-to-top.button.icon {
     justify-content: center;
     text-decoration: none;
     border: 1px solid #827676;
+    z-index: 20;
 }
 
 footer .back-to-top.button.icon:hover {

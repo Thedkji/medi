@@ -157,7 +157,7 @@
     </div>
 
     <div class="medi-body medi-body-option">
-        <h1>CLINIC - LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
+        <h1>CLINIC 365 - LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
 
         <div class="option-container container">
             <div class="option-item">
