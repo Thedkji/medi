@@ -8,8 +8,8 @@
         background-repeat: no-repeat;
         padding-left: 30px;
         background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 45 45' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.285 6.709a1 1 0 00-1.414-1.414L9 15.168l-3.871-3.87a1 1 0 10-1.414 1.414l4.578 4.578a1 1 0 001.414 0l10.578-10.578z' fill='none' stroke='%233c78d8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-
-        height: 30px;
+        min-height: 30px;
+        font-size: clamp(14px, 1.5vw, 16px);
     }
 
     #medi-home .option-container .option-item button {
