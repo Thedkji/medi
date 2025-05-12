@@ -15,7 +15,11 @@ button{
 }
 
 .container {
-    padding: 0 120px;
+    padding-left: clamp(50px , 10vw , 120px);
+    padding-right: clamp(50px , 10vw , 120px);
+}
+.m-auto{
+    margin: auto;
 }
 
 .swiper-button-prev::after {

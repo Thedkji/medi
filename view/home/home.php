@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="./assets/css/home.css">
+<link rel="stylesheet" href="./assets/css/home.css?v=<?= time() ?>">
 <script src="./assets/js/home/banner-header.js"></script>
 <script src="./assets/js/home/medi-body-feature-show.js"></script>
+<script src="./assets/js/home/medi-body-evaluate.js"></script>
 <style>
     #medi-home .medi-body .content-item li {
         list-style: none;
@@ -11,14 +12,12 @@
     }
 
     #medi-home .option-container .option-item button {
-        width: 100%;
-        height: 100%;
-        border: none;
-        border-radius: 10px;
         background-image: url('./assets/imgs/Frame-162-1.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
     }
+
+    /* #medi-home .option-container .option-item:nth-child(2) button {
+        background-image: url('./assets/imgs/kham-tongquat.png');
+    } */
 
     #medi-home .option-container .option-item span {
         font-size: 16px;
@@ -40,7 +39,7 @@
                     <a href="###">
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
-                    <div class="text-inner container">
+                    <div class="text-inner container m-auto">
                         <h1 class="color-secondary">MEDi – Phần Mềm Nhật Bản Quản lý Phòng Khám &amp; Nhà Thuốc Hiệu Quả</h1>
                         <p>&nbsp;</p>
                         <h2 class="color-primary my-20">Giá chỉ từ<br>350.000 VNĐ/tháng</h2>
@@ -94,16 +93,16 @@
                 <p>Khách hàng đăng ký<br>dùng thử</p>
             </div>
             <div>
-                <h2 class="item-number">428</h2>
-                <p>Khách hàng đăng ký<br>dùng thử</p>
+                <h2 class="item-number">145</h2>
+                <p>Khách hàng<br></p>
             </div>
             <div>
-                <h2 class="item-number">428</h2>
-                <p>Khách hàng đăng ký<br>dùng thử</p>
+                <h2 class="item-number">21</h2>
+                <p>Tỉnh thành Việt Nam<br></p>
             </div>
             <div>
-                <h2 class="item-number">428</h2>
-                <p>Khách hàng đăng ký<br>dùng thử</p>
+                <h2 class="item-number">4</h2>
+                <p>Văn phòng ở Nhật Bản, Việt Nam<br>và Indonesia</p>
             </div>
         </section>
     </div>
@@ -192,42 +191,70 @@
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám Nội tổng quát</span>
                     </button>
                 </a>
             </div>
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám Tai Mũi Họng</span>
                     </button>
                 </a>
             </div>
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám chuyên khoa Nhi</span>
                     </button>
                 </a>
             </div>
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám chuyên khoa Nha khoa</span>
                     </button>
                 </a>
             </div>
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám Sản</span>
                     </button>
                 </a>
             </div>
             <div class="option-item">
                 <a href="###">
                     <button>
-                        <span>Phòng khám Đa khoa</span>
+                        <span>Phòng khám Xương khớp</span>
+                    </button>
+                </a>
+            </div>
+            <div class="option-item">
+                <a href="###">
+                    <button>
+                        <span>Phòng khám Dinh dưỡng</span>
+                    </button>
+                </a>
+            </div>
+            <div class="option-item">
+                <a href="###">
+                    <button>
+                        <span>Phòng khám Tâm thần kinh</span>
+                    </button>
+                </a>
+            </div>
+            <div class="option-item">
+                <a href="###">
+                    <button>
+                        <span>Phòng khám Vật lý trị liệu & Phục hồi chức năng</span>
+                    </button>
+                </a>
+            </div>
+            <div class="option-item">
+                <a href="###">
+                    <button>
+                        <span>Phòng khám Đông y & Y học cổ truyền</span>
                     </button>
                 </a>
             </div>
@@ -272,5 +299,127 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
+    </div>
+
+    <div class="medi-body medi-body-evaluate">
+        <h1>Đánh giá của chuyên gia</h1>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="./assets/imgs/Rectangle-84.png" alt="">
+                        <div class="content">
+                            <p>Tôi thấy phần mềm bệnh án điện tử rất dễ dùng, các thao tác tiện lợi trong việc theo dõi được bệnh nhân, với vai trò là người quản lý chung phòng khám HSYTĐT giúp tôi quản lý chuyên môn, vật tư dễ dàng hơn.</p>
+                            <p><em><strong>Bác sĩ Tạ Minh Lý – Bác sĩ chuyên khoa Nội</strong></em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="./assets/imgs/Rectangle-84.png" alt="">
+                        <div class="content">
+                            <p>Tôi thấy phần mềm bệnh án điện tử rất dễ dùng, các thao tác tiện lợi trong việc theo dõi được bệnh nhân, với vai trò là người quản lý chung phòng khám HSYTĐT giúp tôi quản lý chuyên môn, vật tư dễ dàng hơn.</p>
+                            <p><em><strong>Bác sĩ Tạ Minh Lý – Bác sĩ chuyên khoa Nội</strong></em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="./assets/imgs/Rectangle-84.png" alt="">
+                        <div class="content">
+                            <p>Tôi thấy phần mềm bệnh án điện tử rất dễ dùng, các thao tác tiện lợi trong việc theo dõi được bệnh nhân, với vai trò là người quản lý chung phòng khám HSYTĐT giúp tôi quản lý chuyên môn, vật tư dễ dàng hơn.</p>
+                            <p><em><strong>Bác sĩ Tạ Minh Lý – Bác sĩ chuyên khoa Nội</strong></em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="./assets/imgs/Rectangle-84.png" alt="">
+                        <div class="content">
+                            <p>Tôi thấy phần mềm bệnh án điện tử rất dễ dùng, các thao tác tiện lợi trong việc theo dõi được bệnh nhân, với vai trò là người quản lý chung phòng khám HSYTĐT giúp tôi quản lý chuyên môn, vật tư dễ dàng hơn.</p>
+                            <p><em><strong>Bác sĩ Tạ Minh Lý – Bác sĩ chuyên khoa Nội</strong></em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="medi-banner-2">
+        <img src="./assets/imgs/7718532_Mesa-de-trabajo-1-2048x779.jpg" alt="">
+    </div>
+
+    <div class="medi-body medi-section-icon container">
+        <div>
+            <img src="./assets/imgs/alnt.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/ankhang.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/drdat.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/lena.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/nutri.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/thanh.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/xt.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/imgs/logo_phong_kham_an.png" alt="">
+        </div>
+    </div>
+    <div class="medi-body medi-news">
+        <h1>TIN TỨC LIÊN QUAN</h1>
+
+        <div class="news-container container">
+            <a href="###">
+                <div class="new-item">
+                    <img src="./assets/imgs/truyen-thong-qua-email.jpg" alt="">
+
+                    <div class="content">
+                        <p>Kế hoạch truyền thông qua email chi tiết cho phòng khám</p>
+
+                        <p>Đọc tiếp</p>
+                    </div>
+                </div>
+            </a>
+            <a href="###">
+                <div class="new-item">
+                    <img src="./assets/imgs/truyen-thong-qua-email.jpg" alt="">
+
+                    <div class="content">
+                        <p>Kế hoạch truyền thông qua email chi tiết cho phòng khám</p>
+
+                        <p>Đọc tiếp</p>
+                    </div>
+                </div>
+            </a>
+            <a href="###">
+                <div class="new-item">
+                    <img src="./assets/imgs/truyen-thong-qua-email.jpg" alt="">
+
+                    <div class="content">
+                        <p>Kế hoạch truyền thông qua email chi tiết cho phòng khám</p>
+
+                        <p>Đọc tiếp</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="###" class="btn-list">
+            <button>Xem thêm tin tức</button>
+        </a>
     </div>
 </div>
