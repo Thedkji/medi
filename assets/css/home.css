@@ -30,7 +30,12 @@
 #medi-home .medi-banner .swiper-slide .text-inner a {
     display: inline-block;
     padding: 10px 20px;
-    background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
+    background-image: linear-gradient(to left,
+            #00c853,
+            #00bfa5,
+            #00acc1,
+            #3c78d8);
+
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -74,13 +79,24 @@
     align-items: center;
 }
 
+@media (max-width: 988px) {
+    #medi-home .medi-section {
+        height: 300px;
+        padding-block: 20px;
+    }
+
+    #medi-home .medi-section section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 #medi-home .medi-section section div {
-    max-width: 292px;
     height: 120px;
     color: white;
     border-right: 1px solid white;
     align-content: start;
     text-align: center;
+    padding: 0 20px;
 }
 
 #medi-home .medi-section section div h2 {
@@ -133,6 +149,7 @@
         display: flex;
         gap: 60px;
         flex-direction: column;
+        /* margin-bottom: 60px; */
     }
 
     #medi-home .medi-body .content img {
@@ -187,7 +204,7 @@
 
 #medi-home .option-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
     justify-content: center;
     gap: 35px;
     margin-top: 30px;
@@ -214,13 +231,13 @@
     }
 
     #medi-home .option-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(180px, 1fr));
     }
 }
 
 @media (max-width:814px) {
     #medi-home .option-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
         gap: 20px;
     }
 }
@@ -331,6 +348,11 @@
 #medi-home .medi-body-evaluate .swiper .item>.content>p:nth-child(1) {
     font-size: 16px;
     margin-bottom: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 #medi-home .medi-banner-2 img {
@@ -362,7 +384,11 @@
 
 @media (max-width:600px) {
     #medi-home .medi-section-icon {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #medi-home .medi-section-icon img {
+        width: 130px;
     }
 }
 
@@ -425,7 +451,11 @@
 }
 
 #medi-home .medi-news .btn-list button {
-    background-image: linear-gradient(to left, #3c78d8, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    background-image: linear-gradient(to left,
+            #00c853,
+            #00bfa5,
+            #00acc1,
+            #3c78d8);
     border-radius: 25px;
     border: none;
     padding: 10px 20px;
