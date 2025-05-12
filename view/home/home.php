@@ -351,11 +351,11 @@
         </div>
     </div>
 
-    <div class="medi-banner-2">
+    <!-- <div class="medi-banner-2">
         <img src="./assets/imgs/7718532_Mesa-de-trabajo-1-2048x779.jpg" alt="">
-    </div>
+    </div> -->
 
-    <div class="medi-body medi-section-icon container">
+    <!-- <div class="medi-body medi-section-icon container">
         <div>
             <img src="./assets/imgs/alnt.png" alt="">
         </div>
@@ -380,8 +380,9 @@
         <div>
             <img src="./assets/imgs/logo_phong_kham_an.png" alt="">
         </div>
-    </div>
-    <div class="medi-body medi-news">
+    </div> -->
+
+    <!-- <div class="medi-body medi-news">
         <h1>TIN TỨC LIÊN QUAN</h1>
 
         <div class="news-container container">
@@ -422,5 +423,5 @@
         <a href="###" class="btn-list">
             <button>Xem thêm tin tức</button>
         </a>
-    </div>
+    </div> -->
 </div>

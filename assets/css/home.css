@@ -16,7 +16,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 50%;
+    width: 60%;
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h1 {
@@ -42,6 +42,7 @@
     font-size: 20px;
     border-radius: 30px;
 }
+
 #medi-home .medi-banner .swiper-slide .text-inner a:hover {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
@@ -287,8 +288,11 @@
     bottom: 30px;
 }
 
+#medi-home .medi-body-evaluate {
+    padding-bottom: 150px;
+}
+
 #medi-home .medi-body-evaluate .swiper {
-    /* background-color: red; */
     width: 70%;
     margin: 20px auto;
 }
