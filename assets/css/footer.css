@@ -2,11 +2,11 @@
     max-width: 900px;
 }
 
-#row-1414367170 > .col > .col-inner {
+#row-1414367170>.col>.col-inner {
     border-radius: 25px;
 }
 
-#col-2025112393 > .col-inner {
+#col-2025112393>.col-inner {
     border-radius: 25px;
 }
 
@@ -50,31 +50,40 @@
 .wpcf7-form .hidden-form-inputs {
     display: none;
 }
-.gallery, .row {
+
+.gallery,
+.row {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
 }
+
 /* .container, .container-width, .full-width .ubermenu-nav, .row, body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 } */
-.col, .columns, .gallery-item {
+.col,
+.columns,
+.gallery-item {
     margin: 0;
     position: relative;
     width: 100%;
     height: 170px;
 }
-#row-1001541703 > .col > .col-inner {
+
+#row-1001541703>.col>.col-inner {
     border-radius: 25px;
 }
-#col-160412469 > .col-inner {
+
+#col-160412469>.col-inner {
     border-radius: 25px;
 }
+
 .col-inner {
     height: 100% !important;
 }
+
 .col-inner {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -85,14 +94,17 @@
     position: relative;
     width: 100%;
 }
+
 .luantesst {
     border-radius: 40px;
 }
+
 .banner {
     min-height: 30px;
     position: relative;
     width: 100%;
 }
+
 .fill {
     height: 100%;
     left: 0;
@@ -102,9 +114,11 @@
     right: 0;
     top: 0;
 }
+
 .banner-bg {
     overflow: hidden;
 }
+
 #banner-63466613 .bg.bg-loaded {
     background-image: url(/assets/imgs/banner_footer.png);
 }
@@ -112,22 +126,28 @@
 #banner-63466613 .bg {
     background-position: 44% 63%;
 }
-.has-hover .bg, .has-hover [class*=image-] img {
+
+.has-hover .bg,
+.has-hover [class*=image-] img {
     transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
 }
+
 .bg-loaded {
     opacity: 1;
 }
+
 .bg {
     opacity: 0;
     transition: opacity 1s;
     -webkit-transition: opacity 1s;
 }
+
 .bg-fill {
     background-position: 50% 50%;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+
 .is-border {
     border: 1px solid #ececec;
     border-radius: 0;
@@ -139,9 +159,11 @@
     right: 0;
     top: 0;
 }
+
 html :where([style*=border-width]) {
     border-style: solid;
 }
+
 /* .row .container {
     padding-left: 0;
     padding-right: 0;
@@ -155,6 +177,7 @@ html :where([style*=border-width]) {
     max-height: 100%;
     position: relative;
 }
+
 /* .container, .container-width, .full-width .ubermenu-nav, .row {
     max-width: 1080px;
 }
@@ -167,16 +190,19 @@ html :where([style*=border-width]) {
     margin-right: auto;
     width: 100%;    
 } */
-.flex_footer{
+.flex_footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.flex_footer1{
+
+.flex_footer1 {
     max-width: 1170px;
 }
+
 #text-box-918424071 {
     width: 60%;
 }
+
 #text-box-918424071 .text-box-content {
     font-size: 100%;
 }
@@ -187,15 +213,21 @@ html :where([style*=border-width]) {
     position: relative;
     z-index: 10;
 }
-.dark, .dark p, .dark td {
+
+.dark,
+.dark p,
+.dark td {
     color: #f1f1f1;
 }
+
 .text-center {
     text-align: center;
 }
-.dark h3{
+
+.dark h3 {
     color: #fff;
 }
+
 .banner h3 {
     font-weight: 400;
     line-height: 1;
@@ -207,10 +239,12 @@ html :where([style*=border-width]) {
 .banner h3 {
     font-size: 2em;
 }
-h3{
+
+h3 {
     font-weight: 700;
     font-style: normal;
 }
+
 #gap-170723792 {
     padding-top: 30px;
 }
@@ -219,13 +253,16 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+
 .dark .wpcf7 {
     color: #fff;
 }
+
 .wpcf7 {
     color: #333;
     position: relative;
 }
+
 .wpcf7 .screen-reader-response {
     position: absolute;
     overflow: hidden;
@@ -238,18 +275,22 @@ h3{
     border: 0;
     word-wrap: normal !important;
 }
+
 .wpcf7 p {
     margin: 0;
     padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
     margin-top: 0;
     padding: 0;
 }
+
 ul {
     list-style: disc;
 }
+
 /* First input: Banner section (Nhập email hoặc số điện thoại...) */
 .banner-layers.container .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required[type="text"] {
     background-color: hsla(0, 0%, 100%, .2) !important;
@@ -271,6 +312,7 @@ ul {
     width: 100%;
     height: 39px;
 }
+
 input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
     position: absolute;
     top: 19px;
@@ -284,25 +326,30 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
     color: white;
     font-weight: 500;
 }
+
 .wpcf7-form-control.wpcf7-text::placeholder {
     color: white;
     padding: 15px;
     font-size: 1.2em;
 }
+
 .banner-layers.container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
+
 input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     position: absolute;
     top: 19px;
     right: 0px;
 }
+
 .dark input[type='submit']:not(.is-form) {
     background-color: #00415a;
 }
+
 .dark input[type=submit] {
     color: #fff;
     font-weight: 500;
@@ -310,13 +357,16 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     width: 115px;
     height: 39px;
 }
+
 .form-flat input {
     border-radius: 99px;
 }
-.col-inner a .icon_footer{
+
+.col-inner a .icon_footer {
     width: 40px;
     height: 40px;
 }
+
 /* footer */
 .footer-wrapper {
     background-color: #333;
@@ -326,7 +376,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
 }
 
 .footer-widgets.footer.footer-2.dark {
-    padding: 180px 0;
+    padding-block: 180px;
     background: #171717;
 }
 
@@ -476,12 +526,57 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;border: 1px solid hsla(0, 0%, 100%, .2);
+    text-decoration: none;
+    border: 1px solid hsla(0, 0%, 100%, .2);
 }
 
 .back-to-top.button.icon:hover {
     background: #0056b3;
 }
+
+footer {
+    position: relative;
+    background: #171717
+}
+
+footer .positon-footer .title {
+    font-size: clamp(17px,2vw,22px);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+footer .positon-footer .input-email {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+footer .positon-footer .input-email input {
+    background-color: hsla(0, 0%, 100%, .2);
+    border-color: hsla(0, 0%, 100%, .09);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+}
+footer .positon-footer .input-email input::placeholder {
+    color: white;
+}
+footer .positon-footer .input-email button {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
 
 @media (max-width: 768px) {
     .col.pb-0 {
