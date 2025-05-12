@@ -16,8 +16,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding-left: clamp(15px, 15vw, 185px);
-    padding-right: clamp(15px, 25vw, 416px);
 }
 
 #medi-home .medi-banner .swiper-slide .text-inner h1 {
@@ -32,7 +30,7 @@
 #medi-home .medi-banner .swiper-slide .text-inner a {
     display: inline-block;
     padding: 10px 20px;
-    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    background-image: linear-gradient(to left, #3c78d8, #29aeff, #52a2ff, #7894ff, #9c83ff);
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -53,7 +51,7 @@
 }
 
 #medi-home .medi-section {
-    background: rgb(0, 65, 90);
+    background: #3c78d8;
 }
 
 @media (max-width: 680px) {
@@ -84,7 +82,7 @@
 
 #medi-home .medi-section section div h2 {
     margin-bottom: 10px;
-    color: #00b8ff;
+    color: white;
     font-size: 32px;
 }
 
@@ -96,7 +94,7 @@
 
 #medi-home .medi-body h1:first-child {
     text-align: center;
-    color: rgb(0, 65, 90);
+    color: #3c78d8;
     position: relative;
     padding: 40px 0 0 0;
     font-size: clamp(25px, 2vw, 35px);
@@ -107,7 +105,7 @@
     display: block;
     width: 10%;
     height: 2px;
-    background: rgb(0, 65, 90);
+    background: #3c78d8;
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -142,7 +140,7 @@
 }
 
 #medi-home .medi-body .content-item h2 {
-    color: rgb(0, 65, 90);
+    color: #3c78d8;
     font-size: 25px;
 }
 
@@ -176,7 +174,7 @@
 
 #medi-home .medi-body-button a:nth-child(1) button {
     border-radius: 15px 0 0 15px;
-    background: #00B8FF;
+    background: #3c78d8;
 }
 
 #medi-home .medi-body-button a:nth-child(2) button {
@@ -413,7 +411,7 @@
 }
 
 #medi-home .medi-news>.news-container .new-item .content p:nth-child(2) {
-    color: #00B8FF;
+    color: #3c78d8;
     font-weight: bold;
     font-size: 17px;
 }
@@ -424,7 +422,7 @@
 }
 
 #medi-home .medi-news .btn-list button {
-    background-image: linear-gradient(to left, #00b8ff, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    background-image: linear-gradient(to left, #3c78d8, #29aeff, #52a2ff, #7894ff, #9c83ff);
     border-radius: 25px;
     border: none;
     padding: 10px 20px;

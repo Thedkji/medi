@@ -7,7 +7,8 @@
         list-style: none;
         background-repeat: no-repeat;
         padding-left: 30px;
-        background-image: url('./assets/imgs/li.png');
+        background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 45 45' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.285 6.709a1 1 0 00-1.414-1.414L9 15.168l-3.871-3.87a1 1 0 10-1.414 1.414l4.578 4.578a1 1 0 001.414 0l10.578-10.578z' fill='none' stroke='%233c78d8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+
         height: 30px;
     }
 
@@ -40,7 +41,7 @@
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
-                        <h1 class="color-secondary">MEDi – Phần Mềm Nhật Bản Quản lý Phòng Khám &amp; Nhà Thuốc Hiệu Quả</h1>
+                        <h1 class="color-secondary">Clinic – Phần Mềm Nhật Bản Quản lý Phòng Khám &amp; Nhà Thuốc Hiệu Quả</h1>
                         <p>&nbsp;</p>
                         <h2 class="color-primary my-20">Giá chỉ từ<br>350.000 VNĐ/tháng</h2>
                         <a href="/dang-ky-dung-thu/" target="_self">
@@ -59,7 +60,7 @@
                     </a>
                     <div class="text-inner container">
                         <div id="text-138976528" class="text h1-medi-ldp">
-                            <h1>MEDi – Phần mềm quản lý phòng khám</h1>
+                            <h1>Clinic – Phần mềm quản lý phòng khám</h1>
                             <h1>Nha Khoa chuẩn Nhật All In One</h1>
                         </div>
                         <p>&nbsp;</p>
@@ -108,7 +109,7 @@
     </div>
 
     <div class="medi-body container">
-        <h1>MEDi – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
+        <h1>Clinic – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
             <img src="./assets/imgs/luachon-medi.png" alt="">
             <div class="content-item">
@@ -178,7 +179,7 @@
     </div>
 
     <div class="medi-body medi-body-option">
-        <h1>MEDi LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
+        <h1>Clinic LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
 
         <div class="option-container container">
             <div class="option-item">
@@ -269,7 +270,7 @@
     </div>
 
     <div class="medi-body medi-body-feature-show">
-        <h1>Tính năng ưu việt của phần mềm MEDi</h1>
+        <h1>Tính năng ưu việt của phần mềm Clinic</h1>
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->
