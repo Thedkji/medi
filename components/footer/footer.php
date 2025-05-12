@@ -195,7 +195,7 @@
 
     <div class="positon-footer">
         <div class="title">
-            <h2>CLINIC <span class="color-365">365</span> – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
+            <h2>CLINIC 365 – TRỢ THỦ ĐẮC LỰC CHO PHÒNG KHÁM CỦA BẠN</h2>
         </div>
 
         <div class="input-email">

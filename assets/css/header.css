@@ -1,22 +1,22 @@
-.header-main .header-inner {
+header .header-main .header-inner {
     display: flex; /* Giữ Flexbox */
     align-items: center; /* Căn giữa theo chiều dọc */
     width: 100%;
 }
 
-.header.transparent .header-bg-color,
-.header.transparent .header-bg-image,
-.header.transparent .header-bottom,
-.header.transparent .header-wrapper {
+header .header.transparent .header-bg-color,
+header .header.transparent .header-bg-image,
+header .header.transparent .header-bottom,
+header .header.transparent .header-wrapper {
     background-color: transparent;
     background-image: none !important;
     box-shadow: none;
 }
 
-.header.transparent.scrolled .header-bg-color,
-.header.transparent.scrolled .header-bg-image,
-.header.transparent.scrolled .header-bottom,
-.header.transparent.scrolled .header-wrapper {
+header .header.transparent.scrolled .header-bg-color,
+header .header.transparent.scrolled .header-bg-image,
+header .header.transparent.scrolled .header-bottom,
+header .header.transparent.scrolled .header-wrapper {
     background-color: #fff !important;
     animation: menu-scroll 0.5s ease-in-out;
     background-image: none !important;
@@ -31,69 +31,48 @@
 }
 
 /* Đảm bảo header ở trạng thái fixed */
-.header.has-transparent,
-.header.show-on-scroll,
-.header.transparent {
+header .header.has-transparent,
+header .header.show-on-scroll,
+header .header.transparent {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 30;
 }
 /*  */
-.flex-col.logo {
+header .flex-col.logo {
     display: flex;
     align-items: center;
     /* Bỏ justify-content: center để logo không bị căn giữa trong khu vực của nó */
 }
 
-.flex-col.hide-for-medium.flex-right {
+header .flex-col.hide-for-medium.flex-right {
     display: flex;
     align-items: center;
     margin-left: auto; /* Đẩy menu về phía bên phải */
 }
-header.header {
+header .header {
     background-color: transparent !important;
 }
 
-.header-bg-container,
-.header-bg-image,
-.header-bg-color {
+header .header-bg-container,
+header .header-bg-image,
+header .header-bg-color {
     background: none !important;
 }
-
-.header, .header-wrapper {
-    background-position: 50% 0;
-    background-size: cover;
-    position: relative;
-    transition: background-color .3s, opacity .3s;
-    width: 100%;
-    z-index: 30;
-}
-.header{
-    display: block;
-    background: #fff !important;
-}
-.header, .header-wrapper {
-    background-position: 50% 0;
-    background-size: cover;
-    position: relative;
-    transition: background-color .3s, opacity .3s;
-    width: 100%;
-    z-index: 30;
-}
-.transparent .header-main {
+header .transparent .header-main {
     padding: 20px 0;
 }
-.header-main {
+header .header-main {
     position: relative;
     z-index: 10;
 }
-.header .flex-row {
+header .header .flex-row {
     height: 100%;
     justify-content: space-between;
     align-items: center;
 }
-.flex-row {
+header .flex-row {
     align-items: center;
     display: flex;
     flex-flow: row nowrap;
@@ -101,22 +80,22 @@ header.header {
     width: 100%;
 }
 
-.header-bg-color, .header-bg-image {
+header .header-bg-color, .header-bg-image {
     background-position: 50% 0;
     transition: background .4s;
 }
-.header .header-nav-main.nav-left {
+header .header .header-nav-main.nav-left {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
 }
-.header .header-nav-main.nav-right {
+header .header .header-nav-main.nav-right {
     display: flex;
     align-items: center;
 }
 
-.button.secondary.is-gloss.is-large {
+header .button.secondary.is-gloss.is-large {
     background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     color: #fff !important;
     font-weight: bold;
@@ -127,109 +106,92 @@ header.header {
     transition: background 0.3s;
     margin-top: 20px;
 }
-/* .noopener.noreferrer{
-        background-image: linear-gradient(to left,
-    #00c853,   
-    #00bfa5,   
-    #00acc1,  
-    #3c78d8,
-    );
-} */
-.button.secondary.is-gloss.is-large:hover {
+
+header .button.secondary.is-gloss.is-large:hover {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     color: #fff !important;
 }
-.transparent #logo img {
+header .transparent #logo img {
     max-height: 55px;
     max-width: 200px;
 }
-.nav > li > a, .links > li > a {
+header .nav > li > a, .links > li > a {
     text-transform: none;
 }
-.nav > li > a, .links > li > a {
+header .nav > li > a, .links > li > a {
     text-decoration: none;
 }
-.nav, .links {
+header .nav, .links {
     list-style-type: none;
 }
 a.button {
     text-decoration: none;
 }
-.nav-size-large>li>a {
+header .nav-size-large>li>a {
     font-size: 1em;
 }
-.nav>li>a {
+header .nav>li>a {
     align-items: center;
     display: inline-flex;
     flex-wrap: wrap;
     padding: 0 10px;
 }
-.header-main .nav > li > a {
+header .header-main .nav > li > a {
     line-height: 16px;
-    color: #00415A;
+    color: black;
 }
-.header-main .nav > li > a:hover {
+header .header-main .nav > li > a:hover {
     color: #3c78d8;
 }
-.nav-size-large>li>a {
+header .nav-size-large>li>a {
     font-size: 1em;
 }
-.nav > li > a, .mobile-sidebar-levels-2 .nav > li > ul > li > a {
+header .nav > li > a, .mobile-sidebar-levels-2 .nav > li > ul > li > a {
     font-weight: 600;
     font-style: normal;
 }
 
-/* .container-width, .full-width .ubermenu-nav, .container, .row {
-    max-width: 1170px;
-}
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container, .container-width, .full-width .ubermenu-nav, .row, body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-} */
-
 /* mobile */
 
-.mobile-nav .nav-icon svg {
+header .mobile-nav .nav-icon svg {
     width: 30px;
     height: 30px;
     transition: color 0.2s;
 }
-.mobile-nav .nav-icon:hover svg {
+header .mobile-nav .nav-icon:hover svg {
     color: #00c6fb;
 }
-.mobile-nav{
+header .mobile-nav{
     display: none;
 }
 
-.mobile-nav .nav-icon {
+header .mobile-nav .nav-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 0;
     width: 30%;
 }
-.header-button{
+header .header-button{
     width: 110%;
 }
-.mobile-menu-overlay{
+header .mobile-menu-overlay{
     display: none;
 }
+
+
+
 @media (max-width: 900px) {
-    .header .header-nav-main.nav-right{
+    header .header .header-nav-main.nav-right{
         display: none;
     }
-    .mobile-nav{
+    header .mobile-nav{
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: 10px;
     }
-    .mobile-nav {
+    header .mobile-nav {
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -237,7 +199,7 @@ a.button {
         background: transparent;
         padding-right: 10px;
     }
-    .mobile-menu-overlay {
+    header .mobile-menu-overlay {
         position: fixed;
         top: 0; left: 0;
         width: 100vw;
@@ -247,10 +209,10 @@ a.button {
         display: none;
         transition: opacity 0.3s;
     }
-    .mobile-menu-overlay.active {
+    header .mobile-menu-overlay.active {
         display: block;
     }
-    .mobile-menu-content {
+    header .mobile-menu-content {
         background: #fff;
         width: 320px;
         max-width: 90vw;
@@ -260,20 +222,20 @@ a.button {
         position: relative;
         overflow-y: auto;
     }
-    .mobile-menu-content ul {
+    header .mobile-menu-content ul {
         list-style: none;
         padding: 0;
         margin: 0;
     }
-    .mobile-menu-content ul li:l    t-child {
+    header .mobile-menu-content ul li:l    t-child {
         margin-bottom: 0;
     }
-    .mobile-menu-content .button {
+    header .mobile-menu-content .button {
         width: 100%;
         display: block;
         text-align: center;
     }
-    .close-mobile-menu {
+    header .close-mobile-menu {
         position: absolute;
         top: 16px;
         right: 16px;
@@ -281,47 +243,47 @@ a.button {
         cursor: pointer;
         color: #333;
     }
-    .mobile-menu-overlay .mobile-menu-content ul li a {
+    header .mobile-menu-overlay .mobile-menu-content ul li a {
         text-decoration: none;
         color: hsla(0, 0%, 40%, .85);
         transition: all .2s;
         padding-bottom: 20px;
         padding-top: 20px;
     }
-    .mobile-menu-overlay .mobile-menu-content ul li a {
+    header .mobile-menu-overlay .mobile-menu-content ul li a {
         display: block;
         border-bottom: 1px solid #eee;
         /* margin-bottom: 10px; */
         padding: 15px 20px;
-        color: hsla(0, 0%, 40%, .85);
+        color: black;
         text-decoration: none;
         transition: all .2s;
         font-weight: 600;
         font-style: normal;
     }
-    .mobile-menu-overlay .mobile-menu-content > ul > li > a:hover {
-        color: black;
+    header .mobile-menu-overlay .mobile-menu-content > ul > li > a:hover {
+        color: #3c78d8;
     }
     
-    .mobile-menu-overlay .mobile-menu-content > ul > li:hover {
+    header .mobile-menu-overlay .mobile-menu-content > ul > li:hover {
         background: rgba(0, 0, 0, .05);
     }
     /* Đảm bảo submenu không bị ảnh hưởng bởi hover */
-    .mobile-menu-overlay .mobile-menu-content .submenu,
-    .mobile-menu-overlay .mobile-menu-content .submenu li,
-    .mobile-menu-overlay .mobile-menu-content .submenu li a {
+    header .mobile-menu-overlay .mobile-menu-content .submenu,
+    header .mobile-menu-overlay .mobile-menu-content .submenu li,
+    header .mobile-menu-overlay .mobile-menu-content .submenu li a {
         background: none;
     }
-    .mobile-menu-overlay .mobile-menu-content ul li:last-child a {
+    header .mobile-menu-overlay .mobile-menu-content ul li:last-child a {
         border-bottom: none;
         margin-bottom: 0;
     }
-    .mobile-menu-overlay .mobile-menu-content ul li .btn-mobile {
+    header .mobile-menu-overlay .mobile-menu-content ul li .btn-mobile {
         width: 100%;
         max-width: 220px;
         margin: 0 auto;
     }
-    .mobile-menu-overlay .close-mobile-menu{
+    header .mobile-menu-overlay .close-mobile-menu{
         opacity: .6;
         transform: translateY(0) translateZ(1px);
         color: #fff;
@@ -331,25 +293,25 @@ a.button {
     }
 
     /* menu cấp */
-    .mobile-menu-content ul .submenu {
+    header .mobile-menu-content ul .submenu {
         display: none;
         padding-left: 18px;
         color: rgba(0, 0, 0, .05);
         margin-top: 6px;    
     }
-    .mobile-menu-content ul .submenu li a {
+    header .mobile-menu-content ul .submenu li a {
         border-bottom: none;
         margin-bottom: 0;
         padding: 10px 0 10px 10px;
         font-size: 0.97em;
-        color: hsla(0, 0%, 40%, .85);
-    }
-    .mobile-menu-content ul .submenu li a:hover {
         color: black;
     }
-    .mobile-menu-content ul .has-submenu.open > .submenu {
+    header .mobile-menu-content ul .submenu li a:hover {
+        color: #3c78d8;
+    }
+    header .mobile-menu-content ul .has-submenu.open > .submenu {
         display: block;
-        animation: fadeInDown 0.25s;
+        animation: fadeInDown 0header .25s;
     }
     .mobile-menu-content ul .submenu-toggle {
         font-size: 0.9em;
@@ -362,13 +324,13 @@ a.button {
         from { opacity: 0; transform: translateY(-10px);}
         to { opacity: 1; transform: translateY(0);}
     }
-    .btn-desktop{
+    header .btn-desktop{
         display: none;
     }
 
 }
 @media (max-width: 680px) {
-    .transparent #logo img {
+    header .transparent #logo img {
         max-height: 45px;
         max-width: 169px;
     }

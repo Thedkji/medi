@@ -1,69 +1,64 @@
-#row-1414367170 {
+footer #row-1414367170 {
     max-width: 900px;
 }
 
-#row-1414367170>.col>.col-inner {
+footer #row-1414367170>.col>.col-inner {
     border-radius: 25px;
 }
 
-#col-2025112393>.col-inner {
+footer #col-2025112393>.col-inner {
     border-radius: 25px;
 }
 
-#banner-1727893074 .bg.bg-loaded {
+footer #banner-1727893074 .bg.bg-loaded {
     background-image: url(https://phanmemmedi.com/wp-content/uploads/2023/10/Frame-48.png);
 }
 
-#banner-1727893074 .bg {
+footer #banner-1727893074 .bg {
     background-position: 44% 63%;
 }
 
-#banner-1727893074 .ux-shape-divider--top svg {
+footer #banner-1727893074 .ux-shape-divider--top svg {
     height: 150px;
     --divider-top-width: 100%;
 }
 
-#banner-1727893074 .ux-shape-divider--bottom svg {
+footer #banner-1727893074 .ux-shape-divider--bottom svg {
     height: 150px;
     --divider-width: 100%;
 }
 
-#banner-1727893074 .is-border {
+footer #banner-1727893074 .is-border {
     border-radius: 25px;
     border-width: 0px 0px 0px 0px;
 }
 
-#gap-2097714087 {
+footer #gap-2097714087 {
     padding-top: 30px;
     display: block;
     height: auto;
 }
 
-#text-box-1449854445 {
+footer #text-box-1449854445 {
     width: 60%;
 }
 
-#text-box-1449854445 .text-box-content {
+footer #text-box-1449854445 .text-box-content {
     font-size: 100%;
 }
 
-.wpcf7-form .hidden-form-inputs {
+footer .wpcf7-form .hidden-form-inputs {
     display: none;
 }
 
-.gallery,
-.row {
+footer .gallery,
+footer .row {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
 }
 
-/* .container, .container-width, .full-width .ubermenu-nav, .row, body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-} */
-.col,
+footer .col,
 .columns,
 .gallery-item {
     margin: 0;
@@ -72,19 +67,19 @@
     height: 170px;
 }
 
-#row-1001541703>.col>.col-inner {
+footer #row-1001541703>.col>.col-inner {
     border-radius: 25px;
 }
 
-#col-160412469>.col-inner {
+footer #col-160412469>.col-inner {
     border-radius: 25px;
 }
 
-.col-inner {
+footer .col-inner {
     height: 100% !important;
 }
 
-.col-inner {
+footer .col-inner {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,17 +90,17 @@
     width: 100%;
 }
 
-.luantesst {
+footer .luantesst {
     border-radius: 40px;
 }
 
-.banner {
+footer .banner {
     min-height: 30px;
     position: relative;
     width: 100%;
 }
 
-.fill {
+footer .fill {
     height: 100%;
     left: 0;
     margin: 0 !important;
@@ -115,40 +110,40 @@
     top: 0;
 }
 
-.banner-bg {
+footer .banner-bg {
     overflow: hidden;
 }
 
-#banner-63466613 .bg.bg-loaded {
+footer #banner-63466613 .bg.bg-loaded {
     background-image: url(/assets/imgs/banner_footer.png);
 }
 
-#banner-63466613 .bg {
+footer #banner-63466613 .bg {
     background-position: 44% 63%;
 }
 
-.has-hover .bg,
-.has-hover [class*=image-] img {
+footer .has-hover .bg,
+footer .has-hover [class*=image-] img {
     transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
 }
 
-.bg-loaded {
+footer .bg-loaded {
     opacity: 1;
 }
 
-.bg {
+footer .bg {
     opacity: 0;
     transition: opacity 1s;
     -webkit-transition: opacity 1s;
 }
 
-.bg-fill {
+footer .bg-fill {
     background-position: 50% 50%;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
 
-.is-border {
+footer .is-border {
     border: 1px solid #ececec;
     border-radius: 0;
     bottom: 0;
@@ -164,71 +159,51 @@ html :where([style*=border-width]) {
     border-style: solid;
 }
 
-/* .row .container {
-    padding-left: 0;
-    padding-right: 0;
-} */
-
-/* .container-width, .full-width .ubermenu-nav, .container, .row {
-    max-width: 1170px;
-} */
-.banner-layers {
+footer .banner-layers {
     height: 100%;
     max-height: 100%;
     position: relative;
 }
 
-/* .container, .container-width, .full-width .ubermenu-nav, .row {
-    max-width: 1080px;
-}
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container, .container-width, .full-width .ubermenu-nav, .row, body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;    
-} */
-.flex_footer {
+footer .flex_footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.flex_footer1 {
+footer .flex_footer1 {
     max-width: 1170px;
 }
 
-#text-box-918424071 {
+footer #text-box-918424071 {
     width: 60%;
 }
 
-#text-box-918424071 .text-box-content {
+footer #text-box-918424071 .text-box-content {
     font-size: 100%;
 }
 
-.text-box .text-box-content {
+footer .text-box .text-box-content {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: relative;
     z-index: 10;
 }
 
-.dark,
-.dark p,
-.dark td {
+footer .dark,
+footer .dark p,
+footer .dark td {
     color: #f1f1f1;
 }
 
-.text-center {
+footer .text-center {
     text-align: center;
 }
 
-.dark h3 {
+footer .dark h3 {
     color: #fff;
 }
 
-.banner h3 {
+footer .banner h3 {
     font-weight: 400;
     line-height: 1;
     margin-bottom: .2em;
@@ -236,7 +211,7 @@ html :where([style*=border-width]) {
     padding: 0;
 }
 
-.banner h3 {
+footer .banner h3 {
     font-size: 2em;
 }
 
@@ -245,25 +220,16 @@ h3 {
     font-style: normal;
 }
 
-#gap-170723792 {
+footer #gap-170723792 {
     padding-top: 30px;
 }
 
-.text-center>div {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.dark .wpcf7 {
-    color: #fff;
-}
-
-.wpcf7 {
+footer .wpcf7 {
     color: #333;
     position: relative;
 }
 
-.wpcf7 .screen-reader-response {
+footer .wpcf7 .screen-reader-response {
     position: absolute;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
@@ -276,23 +242,11 @@ h3 {
     word-wrap: normal !important;
 }
 
-.wpcf7 p {
-    margin: 0;
-    padding: 0;
-}
-
-ol,
-ul {
-    margin-top: 0;
-    padding: 0;
-}
-
-ul {
+ footer ul {
     list-style: disc;
 }
 
-/* First input: Banner section (Nhập email hoặc số điện thoại...) */
-.banner-layers.container .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required[type="text"] {
+footer .banner-layers.container .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required[type="text"] {
     background-color: hsla(0, 0%, 100%, .2) !important;
     border-color: hsla(0, 0%, 100%, .09);
     border-radius: 99px;
@@ -302,8 +256,7 @@ ul {
     height: 39px;
 }
 
-/* Second input: Footer section (Email nhận thông tin ưu đãi) */
-.footer-widgets.footer-2.dark .wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required[type="email"] {
+footer .footer-widgets.footer-2.dark .wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required[type="email"] {
     background-color: hsla(0, 0%, 100%, .2) !important;
     border-color: hsla(0, 0%, 100%, .09);
     border-radius: 99px;
@@ -314,7 +267,7 @@ ul {
     outline: none;
 }
 
-input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
+footer input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
     position: absolute;
     top: 19px;
     right: 2px;
@@ -328,34 +281,34 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring2 {
     font-weight: 500;
 }
 
-.wpcf7-form-control.wpcf7-text::placeholder {
+footer .wpcf7-form-control.wpcf7-text::placeholder {
     color: white;
     padding: 15px;
     font-size: 1.2em;
 }
 
-.banner-layers.container {
+footer .banner-layers.container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
+footer input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     position: absolute;
     bottom: 0;
     right: 0px;
     background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
-input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
+ footer input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
 
-.dark input[type='submit']:not(.is-form) {
+footer .dark input[type='submit']:not(.is-form) {
     background-color: #00415a;
 }
 
-.dark input[type=submit] {
+footer .dark input[type=submit] {
     color: #fff;
     font-weight: 500;
     font-size: 1.1em;
@@ -363,60 +316,62 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
     height: 39px;
 }
 
-.form-flat input {
+footer .form-flat input {
     border-radius: 99px;
 }
 
-.col-inner a .icon_footer {
+footer .col-inner a .icon_footer {
     width: 40px;
     height: 40px;
     color: white;
 }
 
 /* footer */
-.footer-wrapper {
+footer .footer-wrapper {
     background-color: #333;
     color: #fff;
     height: 100%;
     min-height: 500px;
 }
 
-.footer-widgets.footer.footer-2.dark {
+footer .footer-widgets.footer.footer-2.dark {
     padding-block: 200px;
     background: #3c78d8;
 }
 
-.row.dark.large-columns-2 {
+footer .row.dark.large-columns-2 {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
-.col.pb-0 {
+footer .col.pb-0 {
     padding-bottom: 0;
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 0 15px;
 }
 
-.widget_custom_html .textwidget img.header-logo {
+footer .custom-html-widget{
+    width: 90%;
+}
+footer .widget_custom_html .textwidget img.header-logo {
     width: 200px;
     padding-bottom: 20px;
 }
 
-.subcribe-footer .wpcf7-form {
+footer .subcribe-footer .wpcf7-form {
     margin-top: 20px;
 }
 
-.flex-row.form-flat.medium-flex-wrap {
+footer .flex-row.form-flat.medium-flex-wrap {
     display: flex;
 }
 
-.flex-col.flex-grow.medring-footer-sub {
+footer .flex-col.flex-grow.medring-footer-sub {
     flex-grow: 1;
 }
 
-.wpcf7-form-control.wpcf7-text.wpcf7-email {
+footer .wpcf7-form-control.wpcf7-text.wpcf7-email {
     width: 100%;
     padding: 10px;
     margin-bottom: 0px;
@@ -425,7 +380,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
     color: #fff;
 }
 
-.wpcf7-form-control.wpcf7-submit.button-medring {
+footer .wpcf7-form-control.wpcf7-submit.button-medring {
     padding: 10px 20px;
     background: #007bff;
     border: none;
@@ -433,93 +388,89 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
     cursor: pointer;
 }
 
-.wpcf7-form-control.wpcf7-submit.button-medring:hover {
+footer .wpcf7-form-control.wpcf7-submit.button-medring:hover {
     background: #0056b3;
 }
 
-.col-inner h4 {
+footer .col-inner h4 {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.ux-menu.stack.stack-col {
+footer .ux-menu.stack.stack-col {
     display: flex;
     flex-direction: column;
 }
 
-.ux-menu-link.flex.menu-item {
+footer .ux-menu-link.flex.menu-item {
     margin-bottom: 10px;
 }
 
-.ux-menu-link__link.flex {
+footer .ux-menu-link__link.flex {
     color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-.ux-menu-link__link.flex:hover {
-    color: #007bff;
-}
-
-.ux-menu-link__icon {
+footer .ux-menu-link__icon {
     margin-right: 10px;
     font-size: 1.2em;
 }
 
-.col-inner img {
+footer .col-inner img {
     margin-right: 10px;
     margin-bottom: 10px;
     width: 100%;
 }
 
-.fixed-sidebar-vns img {
+footer .fixed-sidebar-vns img {
     width: 50px;
     margin-bottom: 1.5rem;
 }
 
-.absolute-footer.dark {
+footer .absolute-footer.dark {
     background: #222;
     padding: 20px 0;
     text-align: center;
 }
 
-.container.clearfix {
+footer .container.clearfix {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.footer-primary.pull-left {
+footer .footer-primary.pull-left {
     float: left;
 }
 
-.menu-secondary-container .footer-nav {
+footer .menu-secondary-container .footer-nav {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-.menu-secondary-container .footer-nav li {
+footer .menu-secondary-container .footer-nav li {
     margin-right: 20px;
 }
 
-.menu-secondary-container .footer-nav li a {
+footer .menu-secondary-container .footer-nav li a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.menu-secondary-container .footer-nav li a:hover {
+footer .menu-secondary-container .footer-nav li a:hover {
     color: #007bff;
 }
 
-.copyright-footer {
+footer .copyright-footer {
     margin-top: 10px;
     font-size: 0.9em;
 }
 
-.back-to-top.button.icon {
+footer .back-to-top.button.icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -533,12 +484,13 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring:hover {
     justify-content: center;
     text-decoration: none;
     border: 1px solid #827676;
+    z-index: 20;
 }
 
-.back-to-top.button.icon:hover {
+footer .back-to-top.button.icon:hover {
     background: #3c78d8;
 }
-.back-to-top.button.icon:hover svg {
+footer .back-to-top.button.icon:hover svg {
     fill: white;
 }
 
@@ -589,22 +541,22 @@ footer .positon-footer .input-email button:hover {
 }
 
 @media (max-width: 768px) {
-    .col.pb-0 {
+    footer .col.pb-0 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .footer-primary.pull-left {
+    footer .footer-primary.pull-left {
         float: none;
         text-align: center;
     }
 
-    .menu-secondary-container .footer-nav {
+    footer .menu-secondary-container .footer-nav {
         flex-direction: column;
         align-items: center;
     }
 
-    .menu-secondary-container .footer-nav li {
+    footer .menu-secondary-container .footer-nav li {
         margin-right: 0;
         margin-bottom: 10px;
     }
