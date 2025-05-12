@@ -30,11 +30,14 @@
 #medi-home .medi-banner .swiper-slide .text-inner a {
     display: inline-block;
     padding: 10px 20px;
-    background-image: linear-gradient(to left, #3c78d8, #29aeff, #52a2ff, #7894ff, #9c83ff);
+    background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
     color: white;
     text-decoration: none;
     font-size: 20px;
     border-radius: 30px;
+}
+#medi-home .medi-banner .swiper-slide .text-inner a:hover {
+    background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
 
 #medi-home .medi-banner .swiper-button-next {

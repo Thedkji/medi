@@ -41,11 +41,11 @@
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
-                        <h1 class="color-secondary">Clinic – Phần Mềm Nhật Bản Quản lý Phòng Khám &amp; Nhà Thuốc Hiệu Quả</h1>
+                        <h1 class="color-secondary">Clinic 365 – Phần mềm nhật bản quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
                         <p>&nbsp;</p>
                         <h2 class="color-primary my-20">Giá chỉ từ<br>350.000 VNĐ/tháng</h2>
                         <a href="/dang-ky-dung-thu/" target="_self">
-                            <span>Dùng thử MIỄN PHÍ ngay</span>
+                            <span>Dùng thử miễn phí ngay</span>
                         </a>
                     </div>
                 </div>
@@ -103,13 +103,13 @@
             </div>
             <div>
                 <h2 class="item-number">4</h2>
-                <p>Văn phòng ở Nhật Bản, Việt Nam<br>và Indonesia</p>
+                <p>Văn phòng ở Việt Nam</p>
             </div>
         </section>
     </div>
 
     <div class="medi-body container">
-        <h1>Clinic – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
+        <h1>CLINIC – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
             <img src="./assets/imgs/luachon-medi.png" alt="">
             <div class="content-item">
@@ -179,7 +179,7 @@
     </div>
 
     <div class="medi-body medi-body-option">
-        <h1>Clinic LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
+        <h1>CLINIC - LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
 
         <div class="option-container container">
             <div class="option-item">
@@ -270,7 +270,7 @@
     </div>
 
     <div class="medi-body medi-body-feature-show">
-        <h1>Tính năng ưu việt của phần mềm Clinic</h1>
+        <h1>TÍNH NĂNG ƯU VIỆT CỦA PHẦN MÊM CLINIC</h1>
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -303,7 +303,7 @@
     </div>
 
     <div class="medi-body medi-body-evaluate">
-        <h1>Đánh giá của chuyên gia</h1>
+        <h1>ĐÁNH GIÁ CỦA CHUYÊN GIA</h1>
 
         <div class="swiper">
             <div class="swiper-wrapper">

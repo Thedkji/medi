@@ -27,7 +27,7 @@
                     <!-- Right Elements -->
                     <div class="flex-col hide-for-medium flex-right">
                         <ul class="desktop-nav header-nav header-nav-main nav nav-right  nav-pills nav-size-large nav-uppercase">
-                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a href="https://phanmemmedi.com/gioi-thieu/" class="nav-top-link">Sửa chữa</a></li>
+                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a href="https://phanmemmedi.com/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
                             <li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-904 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Tính năng<i class="icon-angle-down"></i></a>
                                 <!-- <ul class="sub-menu nav-dropdown nav-dropdown-default">
                                     <li id="menu-item-905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-da-khoa/">MEDi Phần mềm quản lý phòng khám Đa Khoa</a></li>
@@ -46,7 +46,7 @@
                             </li>
                             <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a href="https://phanmemmedi.com/lien-he/" class="nav-top-link">Liên hệ</a></li>
                             <li class="html header-button-2">
-                                <div class="header-button">
+                                <div class="header-button btn-desktop">
                                     <a rel="noopener noreferrer" href="/dang-ky-dung-thu/" target="_blank" class="button secondary is-gloss is-large" style="border-radius:99px;">
                                         <span>Đăng ký dùng thử</span>
                                     </a>
@@ -59,7 +59,7 @@
                     <div class="flex-col show-for-medium flex-right">
                         <ul class="mobile-nav nav nav-right ">
                             <li class="html header-button-2">
-                                <div class="header-button">
+                                <div class="header-button  btn-desktop">
                                     <a rel="noopener noreferrer" href="/dang-ky-dung-thu/" target="_blank" class="button secondary is-gloss is-large" style="border-radius:99px;">
                                         <span>Đăng ký dùng thử</span>
                                     </a>
@@ -78,7 +78,7 @@
                     <div id="mobile-menu-overlay" class="mobile-menu-overlay">
                         <div class="mobile-menu-content">
                             <ul>
-                                <li class="has-submenu"><a href="https://phanmemmedi.com/gioi-thieu/">Sửa chữa</a></li>
+                                <li class="has-submenu"><a href="https://phanmemmedi.com/gioi-thieu/">Giới thiệu</a></li>
                                 <li class="has-submenu"><a href="https://phanmemmedi.com/tinh-nang/">Tính năng</a></li>
                                 <li class="has-submenu">
                                     <a href="#">liên hệ 
@@ -110,7 +110,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="/dang-ky-dung-thu/" target="_blank" class="button secondary is-gloss is-large btn-mobile" style="border-radius:99px;">
+                                    <a rel="noopener noreferrer btn-mobile" href="/dang-ky-dung-thu/" target="_blank" class="button secondary is-gloss is-large btn-mobile" style="border-radius:99px;">
                                         <span>Đăng ký dùng thử</span>
                                     </a>
                                 </li>
@@ -131,4 +131,17 @@
             </div>	
         </div>
     </header>
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const header = document.querySelector('.header.transparent');
+            if (header) {
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > 20) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                });
+            }
+        });
+    </script>
