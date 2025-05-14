@@ -1,0 +1,63 @@
+.trial-register form {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 525px;
+}
+.trial-register form .submit-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trial-register form input, select,.submit-wrapper button {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.trial-register form input:focus {
+  border-color: #22447a;
+  box-shadow: 0 0 0 1px #3c78d8; 
+  outline: none;     
+  background-color: #f7faff;  
+}
+
+.trial-register form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+}
+.trial-register form input::placeholder{
+  color: #b5b5b5; 
+  opacity: 1; 
+}
+.trial-register form select option {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.trial-register form button {
+    width: 50%;
+    background-color: #003cb3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 99px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.trial-register form button:hover {
+    background-color: #002f91;
+}
+.trial-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 150px;
+}

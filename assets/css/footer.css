@@ -168,6 +168,7 @@ footer .banner-layers {
 footer .flex_footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 footer .flex_footer1 {
@@ -329,7 +330,7 @@ footer .footer-wrapper {
 }
 
 footer .footer-widgets.footer.footer-2.dark {
-    padding-block: 200px;
+    padding-block: 220px;
     background: #3c78d8;
 }
 
@@ -553,7 +554,7 @@ footer .positon-footer .input-email button:hover {
         width: 100%;
     }
     footer .col-inner {
-        width: 60%;
+        width: 90%;
     }
 
     footer .footer-primary.pull-left {
