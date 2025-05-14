@@ -1,0 +1,106 @@
+#clinic-feature>div {
+    margin-block: 125px;
+}
+
+#clinic-feature>div>h1:first-child {
+    color: #3c78d8;
+    position: relative;
+    width: max-content;
+}
+
+#clinic-feature>div>h1:first-child::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 30%;
+    display: block;
+    height: 2px;
+    background: #3c78d8;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#clinic-feature .feature-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-block: 50px;
+}
+
+#clinic-feature .feature-container .feature-item .box {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 10px;
+}
+
+#clinic-feature .feature-container .feature-item .box>.img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #3c78d8;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#clinic-feature .feature-container .feature-item .box>.img img {
+    width: 100%;
+    height: 100%;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content {
+    margin-top: 15px;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content button {
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content button img {
+    width: 20px;
+    height: 20px;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content button h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content .list {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content .list ul li {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content .list ul li svg {
+    fill: white;
+    width: 18px;
+    height: 18px;
+    background-color: #3c78d8;
+    border-radius: 100%;
+    position: relative;
+    box-shadow: 0 0 0 6px #d0e2ff;
+}
+
+#clinic-feature .feature-container .feature-item .box>.content .list ul li p {
+    font-size: 15px;
+    color: rgb(146, 144, 144);
+}
+
+@media (max-width:1048px) {
+    #clinic-feature .feature-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

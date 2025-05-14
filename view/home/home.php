@@ -37,9 +37,9 @@
                         <img src="./assets/imgs/banner-med2.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
-                        <h1 class="color-secondary">Clinic <span>365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
+                        <h1 class="color-secondary"><span class="color-primary">Clinic</span> <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
                         <p>&nbsp;</p>
-                        <a href="/dang-ky-dung-thu/" target="_self">
+                        <a href="###" target="_self">
                             <span>Dùng thử miễn phí ngay</span>
                         </a>
                     </div>
@@ -49,12 +49,6 @@
                         <img src="./assets/imgs/banner-tang-tranh-trang-tri-phong-kham-1400x512.png" alt="">
                     </a>
                 </div>
-                <div class="swiper-slide">
-                    <a href="###">
-                        <img src="./assets/imgs/Frame-45-9.png" alt="">
-                    </a>
-                </div>
-
             </div>
             <div class=" swiper-pagination">
             </div>
