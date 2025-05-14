@@ -8,9 +8,8 @@
                     <!-- Logo -->
                     <div id="logo" class="flex-col logo">
                         <!-- Header logo -->
-                        <a href="https://phanmemmedi.com/" title="Phần mềm quản lý phòng khám MEDi" rel="home">
-                            <img width="512" height="126" src="./assets/imgs/clinic/logo-bg-white.png" class="header_logo header-logo" alt="Phần mềm quản lý phòng khám MEDi">
-                            <!-- <img width="512" height="126" src="https://phanmemmedi.com/wp-content/uploads/2023/09/medring.png" class="header-logo-dark" alt="Phần mềm quản lý phòng khám MEDi"> -->
+                        <a href="https://clinic365.vn" title="Phần mềm quản lý phòng khám CLINIC 365" rel="home">
+                            <img width="512" height="126" src="./assets/imgs/clinic/logo-clinic365.svg" class="header_logo header-logo" alt="Phần mềm quản lý phòng khám CLINIC 365">
                         </a>
                     </div>
 
@@ -27,24 +26,24 @@
                     <!-- Right Elements -->
                     <div class="flex-col hide-for-medium flex-right">
                         <ul class="desktop-nav header-nav header-nav-main nav nav-right  nav-pills nav-size-large nav-uppercase">
-                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a href="https://phanmemmedi.com/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
+                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a href="https://clinic365.vn/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
                             <li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-904 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Tính năng<i class="icon-angle-down"></i></a>
                                 <!-- <ul class="sub-menu nav-dropdown nav-dropdown-default">
-                                    <li id="menu-item-905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-da-khoa/">MEDi Phần mềm quản lý phòng khám Đa Khoa</a></li>
-                                    <li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-dong-y-y-hoc-co-truyen/">MEDi phần mềm quản lý phòng khám Đông y &amp; Y học cổ truyền</a></li>
-                                    <li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-vat-ly-tri-lieu-va-phuc-hoi-chuc-nang/">MEDi phần mềm quản lý phòng khám Vật lý trị liệu và Phục hồi chức năng</a></li>
-                                    <li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-khoa-tam-than/">MEDi phần mềm quản lý phòng khám khoa Tâm Thần</a></li>
-                                    <li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-ngoai/">MEDi phần mềm quản lý phòng khám Ngoại</a></li>
-                                    <li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-noi-tong-hop/">MEDi phần mềm quản lý phòng khám Nội Tổng Hợp</a></li>
-                                    <li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-tai-mui-hong/">MEDi phần mềm quản lý phòng khám Tai Mũi Họng</a></li>
-                                    <li id="menu-item-962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-xuong-khop/">MEDi phần mềm quản lý phòng khám Xương Khớp</a></li>
-                                    <li id="menu-item-963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-da-lieu/">MEDi phần mềm quản lý phòng khám Da Liễu</a></li>
-                                    <li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-san-phu-khoa/">MEDi phần mềm quản lý phòng khám Sản Phụ Khoa</a></li>
-                                    <li id="menu-item-965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-nha-khoa/">MEDi phần mềm quản lý phòng khám Nha Khoa</a></li>
-                                    <li id="menu-item-966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a href="https://phanmemmedi.com/medi-phan-mem-quan-ly-phong-kham-nhi/">MEDi phần mềm quản lý phòng khám Nhi</a></li>
+                                    <li id="menu-item-905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-da-khoa/">MEDi Phần mềm quản lý phòng khám Đa Khoa</a></li>
+                                    <li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-dong-y-y-hoc-co-truyen/">MEDi phần mềm quản lý phòng khám Đông y &amp; Y học cổ truyền</a></li>
+                                    <li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-vat-ly-tri-lieu-va-phuc-hoi-chuc-nang/">MEDi phần mềm quản lý phòng khám Vật lý trị liệu và Phục hồi chức năng</a></li>
+                                    <li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-khoa-tam-than/">MEDi phần mềm quản lý phòng khám khoa Tâm Thần</a></li>
+                                    <li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-ngoai/">MEDi phần mềm quản lý phòng khám Ngoại</a></li>
+                                    <li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-noi-tong-hop/">MEDi phần mềm quản lý phòng khám Nội Tổng Hợp</a></li>
+                                    <li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-tai-mui-hong/">MEDi phần mềm quản lý phòng khám Tai Mũi Họng</a></li>
+                                    <li id="menu-item-962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-xuong-khop/">MEDi phần mềm quản lý phòng khám Xương Khớp</a></li>
+                                    <li id="menu-item-963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-da-lieu/">MEDi phần mềm quản lý phòng khám Da Liễu</a></li>
+                                    <li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-san-phu-khoa/">MEDi phần mềm quản lý phòng khám Sản Phụ Khoa</a></li>
+                                    <li id="menu-item-965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-nha-khoa/">MEDi phần mềm quản lý phòng khám Nha Khoa</a></li>
+                                    <li id="menu-item-966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a href="https://clinic365.vn/medi-phan-mem-quan-ly-phong-kham-nhi/">MEDi phần mềm quản lý phòng khám Nhi</a></li>
                                 </ul> -->
                             </li>
-                            <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a href="https://phanmemmedi.com/lien-he/" class="nav-top-link">Liên hệ</a></li>
+                            <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a href="https://clinic365.vn/lien-he/" class="nav-top-link">Liên hệ</a></li>
                             <li class="html header-button-2">
                                 <div class="header-button btn-desktop">
                                     <a rel="noopener noreferrer" href="/dang-ky-dung-thu/" target="_blank" class="button secondary is-gloss is-large" style="border-radius:99px;">
@@ -78,8 +77,8 @@
                     <div id="mobile-menu-overlay" class="mobile-menu-overlay">
                         <div class="mobile-menu-content">
                             <ul>
-                                <li class="has-submenu"><a href="https://phanmemmedi.com/gioi-thieu/">Giới thiệu</a></li>
-                                <li class="has-submenu"><a href="https://phanmemmedi.com/tinh-nang/">Tính năng</a></li>
+                                <li class="has-submenu"><a href="https://clinic365.vn/gioi-thieu/">Giới thiệu</a></li>
+                                <li class="has-submenu"><a href="https://clinic365.vn/tinh-nang/">Tính năng</a></li>
                                 <li class="has-submenu">
                                     <a href="#">liên hệ 
                                         <span class="submenu-toggle">
