@@ -15,8 +15,17 @@ button{
 }
 
 .container {
-    padding-left: clamp(50px , 10vw , 120px);
-    padding-right: clamp(50px , 10vw , 120px);
+    padding-inline: 120px;
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        padding-inline: 70px;
+    }   
+}
+@media screen and (max-width: 780px) {
+    .container {
+        padding-inline: 20px;
+    }   
 }
 .m-auto{
     margin: auto;

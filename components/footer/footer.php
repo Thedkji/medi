@@ -47,8 +47,8 @@
                 <div class="textwidget custom-html-widget">
                     <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-blue.svg">
                     <br>
-                    <p>Công ty MEDRiNG Vietnam International</p>
-                    <p>Trụ sở: Tầng 7 tòa nhà CTM Complex, 139 Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số 2-4, Đường 8, p.3, q.7, Tp. HCM</p>
+                    <p>Công ty CLINIC 365 Vietnam International</p>
+                    <p>Trụ sở: Tầng xx tòa nhà xxxxxx, xxx Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số xxx, Đường xx, p.xx, q.xx, Tp. HCM</p>
                     <div class="subcribe-footer">
                         <div class="wpcf7 js" id="wpcf7-f15-o3" lang="en-US" dir="ltr">
                             <div class="screen-reader-response">
@@ -71,7 +71,7 @@
                                             <span class="wpcf7-form-control-wrap" data-name="your-email">
                                                 <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email nhận thông tin ưu đãi" value="" type="email" name="your-email">
                                             </span>
-                                            <input class="wpcf7-form-control has-spinner wpcf7-submit button-medring" type="submit" value="ĐĂNG KÝ">
+                                            <input class="wpcf7-form-control has-spinner wpcf7-submit button-medring" type="button" value="ĐĂNG KÝ">
                                             <span class="wpcf7-spinner"></span><br>
                                         </p>
                                     </div>
@@ -90,22 +90,22 @@
                             <h4>THÔNG TIN</h4>
                             <div class="ux-menu stack stack-col justify-start menu-footer">
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/tin-tuc/">
+                                    <a class="ux-menu-link__link flex">
                                         <span class="ux-menu-link__text">Tin tức</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/cau-hoi-thuong-gap" target="_blank" rel="noopener noreferrer">
+                                    <a class="ux-menu-link__link flex" target="_blank" rel="noopener noreferrer">
                                         <span class="ux-menu-link__text">FAQs</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/chinh-sach-dai-ly">
+                                    <a class="ux-menu-link__link flex">
                                         <span class="ux-menu-link__text">Đại lý</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="#">
+                                    <a class="ux-menu-link__link flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill ux-menu-link__icon" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
                                         </svg>
@@ -113,7 +113,7 @@
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="#">
+                                    <a class="ux-menu-link__link flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope ux-menu-link__icon" viewBox="0 0 16 16">
                                             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                                         </svg>
@@ -122,14 +122,8 @@
                                 </div>
                             </div>
                             <div class="icon">
-                                <a target="_blank" href="https://www.youtube.com/@phanmemquanlyphongkhammedi" rel="noopener">
-                                    <img class="icon_footer youtube" src="./assets/imgs/icons/youtube.png" alt="">
-                                </a>
-                                <a target="_blank" href="https://www.linkedin.com/company/medring/" rel="noopener">
-                                    <img class="icon_footer linken" src="./assets/imgs/icons/linkedin.png" alt="">
-                                </a>
-                                <a target="_blank" href="https://www.facebook.com/phanmemphongkhammedi/" rel="noopener">
-                                    <img class="icon_footer facebook" src="./assets/imgs/icons/facebook.png" alt="">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=61574228647002" rel="noopener">
+                                    <div class="icons8-facebook"></div>
                                 </a>
                             </div>
                         </div>
@@ -139,22 +133,22 @@
                             <h4>HỖ TRỢ</h4>
                             <div class="ux-menu stack stack-col justify-start menu-footer">
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/chinh-sach-ban-hang">
+                                    <a class="ux-menu-link__link flex">
                                         <span class="ux-menu-link__text">Chính sách bán hàng</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/chinh-sach-thanh-toan">
+                                    <a class="ux-menu-link__link flex">
                                         <span class="ux-menu-link__text">Chính sách thanh toán</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/chinh-sach-bao-mat">
+                                    <a class="ux-menu-link__link flex">
                                         <span class="ux-menu-link__text">Chính sách bảo mật</span>
                                     </a>
                                 </div>
                                 <div class="ux-menu-link flex menu-item">
-                                    <a class="ux-menu-link__link flex" href="https://phanmemmedi.com/medi-club/" target="_blank" rel="noopener noreferrer">
+                                    <a class="ux-menu-link__link flex" target="_blank" rel="noopener noreferrer">
                                         <span class="ux-menu-link__text">MEDi Club</span>
                                     </a>
                                 </div>
@@ -165,33 +159,11 @@
             </div>
         </div>
     </div>
-    <!-- <div class="absolute-footer dark medium-text-center small-text-center">
-        <div class="container clearfix">
-            <div class="footer-primary pull-left">
-                <div class="menu-secondary-container">
-                    <ul id="menu-secondary" class="links footer-nav uppercase">
-                        <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255">
-                            <a href="https://phanmemmedi.com/gioi-thieu/">Giới thiệu</a>
-                        </li>
-                        <li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256">
-                            <a href="https://phanmemmedi.com/blog/">Blog</a>
-                        </li>
-                        <li id="menu-item-257" class="menu-item menu-item-type-post_type_danh mục chính sách">Chính sách bảo mật</a>
-                        </li>
-                        <li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269">
-                            <a href="https://phanmemmedi.com/cau-hoi-thuong-gap/">CÂU HỎI THƯỜNG GẶP</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="copyright-footer">
-                    © 2021 MEDRiNG
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active" id="top-link" aria-label="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#827676" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+    <a class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active" id="top-link" aria-label="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#827676" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894z" />
-        </svg></a>
+        </svg>
+    </a>
 
     <div class="positon-footer">
         <div class="title">
@@ -201,7 +173,7 @@
         <div class="input-email">
             <input type="text" placeholder="Nhập email hoặc số điện thoại...">
 
-            <a href="###">
+            <a>
                 <button type="button">
                     Đăng ký ngay
                 </button>
