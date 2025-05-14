@@ -32,8 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
         window.addEventListener('scroll', function () {
             if (window.scrollY > 20) {
                 header.classList.add('scrolled');
+                header.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.1)';
             } else {
                 header.classList.remove('scrolled');
+                header.style.boxShadow = 'none';
             }
         });
     }

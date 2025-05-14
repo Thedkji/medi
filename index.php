@@ -30,6 +30,9 @@
             case "feature":
                 include_once 'view/feature/feature.php';
                 break;
+            case "trial-register":
+                include_once 'view/trial-register/trial-register.php';
+                break;
             default:
                 include_once 'view/home/home.php';
                 break;

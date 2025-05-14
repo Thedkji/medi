@@ -34,7 +34,7 @@ header .header.transparent.scrolled .header-wrapper {
 header .header.has-transparent,
 header .header.show-on-scroll,
 header .header.transparent {
-    position: fixed;
+    position: fixed;    
     width: 100%;
     top: 0;
     z-index: 30;
@@ -134,7 +134,6 @@ header .nav>li>a {
     align-items: center;
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 0px 0px 0px 20px;
 }
 header .nav>li .nav-top-link{
     padding: 10px;
@@ -173,7 +172,6 @@ header .mobile-nav .nav-icon {
     align-items: center;
     justify-content: center;
     margin-left: 0;
-    width: 30%;
 }
 header .header-button{
     width: 110%;
@@ -192,7 +190,6 @@ header .mobile-menu-overlay{
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        gap: 10px;
     }
     header .mobile-nav {
         display: flex;
@@ -200,12 +197,11 @@ header .mobile-menu-overlay{
         justify-content: flex-end;
         width: 100%;
         background: transparent;
-        padding-right: 10px;
     }
     header .mobile-menu-overlay {
         position: fixed;
         top: 0; left: 0;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         background: rgba(0,0,0,0.4);
         z-index: 9999;
@@ -271,6 +267,12 @@ header .mobile-menu-overlay{
     header .mobile-menu-overlay .mobile-menu-content > ul > li:hover {
         background: rgba(0, 0, 0, .05);
     }
+     .mobile-menu-content li.has-submenu.open > .submenu > li:hover {
+        background: rgba(0, 0, 0, 0.05); /* hiệu ứng hover cấp 2 */
+    }
+    header .mobile-menu-overlay .mobile-menu-content > ul .type-submit{
+        background: none !important;
+    }
     /* Đảm bảo submenu không bị ảnh hưởng bởi hover */
     header .mobile-menu-overlay .mobile-menu-content .submenu,
     header .mobile-menu-overlay .mobile-menu-content .submenu li,
@@ -305,9 +307,10 @@ header .mobile-menu-overlay{
     header .mobile-menu-content ul .submenu li a {
         border-bottom: none;
         margin-bottom: 0;
-        padding: 10px 0 10px 10px;
+        padding: 15px 0 10px 10px;
         font-size: 0.97em;
         color: black;
+        margin-top: 7px;
     }
     header .mobile-menu-content ul .submenu li a:hover {
         color: #3c78d8;
@@ -315,6 +318,7 @@ header .mobile-menu-overlay{
     header .mobile-menu-content ul .has-submenu.open > .submenu {
         display: block;
         animation: fadeInDown 0header .25s;
+        background: white;
     }
     .mobile-menu-content ul .submenu-toggle {
         font-size: 0.9em;
