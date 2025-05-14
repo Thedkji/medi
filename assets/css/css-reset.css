@@ -6,28 +6,41 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     cursor: pointer;
 }
-button{
+
+ul {
+    list-style: none;
+}
+
+button {
     cursor: pointer;
 }
 
 .container {
     padding-inline: 120px;
 }
+
+.body {
+    margin: 100px 0 200px 0;
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         padding-inline: 70px;
-    }   
+    }
 }
+
 @media screen and (max-width: 780px) {
     .container {
         padding-inline: 20px;
-    }   
+    }
 }
-.m-auto{
+
+.m-auto {
     margin: auto;
 }
 
@@ -83,6 +96,29 @@ button{
 .my-20 {
     margin-block: 20px;
 }
-.color-365{
+
+.color-365 {
     color: #40910A;
+}
+.bg-primary{
+    background: #3c78d8;
+}
+.bg-purple-dark {
+    background: rgb(84, 31, 196);
+}
+
+.bg-yellow-dark {
+    background: rgb(255, 176, 1);
+}
+
+.bg-brown-light {
+    background: rgb(195, 161, 107);
+}
+
+.bg-365 {
+    background: #40910A;
+}
+
+.bg-orange-dark {
+    background: rgb(246, 152, 93);
 }

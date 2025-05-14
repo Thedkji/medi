@@ -27,6 +27,9 @@
             case "home":
                 include_once 'view/home/home.php';
                 break;
+            case "feature":
+                include_once 'view/feature/feature.php';
+                break;
             default:
                 include_once 'view/home/home.php';
                 break;
