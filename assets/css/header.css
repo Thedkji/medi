@@ -134,7 +134,10 @@ header .nav>li>a {
     align-items: center;
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 0 10px;
+    padding: 0px 0px 0px 20px;
+}
+header .nav>li .nav-top-link{
+    padding: 10px;
 }
 header .header-main .nav > li > a {
     line-height: 16px;

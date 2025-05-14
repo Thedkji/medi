@@ -304,11 +304,11 @@ footer input.wpcf7-form-control.has-spinner.wpcf7-submit.button-medring {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
 
-footer .dark input[type='submit']:not(.is-form) {
+footer .dark input[type='button']:not(.is-form) {
     background-color: #00415a;
 }
 
-footer .dark input[type=submit] {
+footer .dark input[type=button] {
     color: #fff;
     font-weight: 500;
     font-size: 1.1em;
@@ -318,12 +318,6 @@ footer .dark input[type=submit] {
 
 footer .form-flat input {
     border-radius: 99px;
-}
-
-footer .col-inner a .icon_footer {
-    width: 40px;
-    height: 40px;
-    color: white;
 }
 
 /* footer */
@@ -539,11 +533,27 @@ footer .positon-footer .input-email button {
 footer .positon-footer .input-email button:hover {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
-
+.icons8-facebook { 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSI3NXB4IiBoZWlnaHQ9Ijc1cHgiPjxwYXRoIGQ9Ik0yNS41MDYsOS4wMzhjOS4xMDEsMCwxNi41MDYsNy40MDQsMTYuNTA2LDE2LjUwNgljMCw4LjMzNy02LjM1OSwxNS41NjItMTUuMDIyLDE2LjQwM0wyNywyOWgzbDEtM2gtNHYtM2MwLTAuOTQxLDEuMDU5LTIsMi0yYzAuNjc3LDAsMSwwLDEsMHYtM2gtMS43NWMtMS41LDAtMywxLTMuNSwxLjUJQzIzLjk0MiwyMC4zMDgsMjMsMjIsMjMsMjMuMjVjMCwxLjk5MSwwLDIuNzUsMCwyLjc1aC0zdjNoM2wwLDEyLjgyMmMtNy44MjItMS4xODQtMTQtNy45NDEtMTQtMTYuMjc5CUM5LDE2LjQ0MiwxNi40MDQsOS4wMzgsMjUuNTA2LDkuMDM4eiIvPjwvc3ZnPg==') 50% 50% no-repeat;
+    background-size: 120%;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
 @media (max-width: 768px) {
     footer .col.pb-0 {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    footer .custom-html-widget {
+        width: 100%;
+    }
+    footer .col-inner {
+        width: 60%;
     }
 
     footer .footer-primary.pull-left {
