@@ -323,14 +323,11 @@ footer .form-flat input {
 
 /* footer */
 footer .footer-wrapper {
-    background-color: #333;
     color: #fff;
-    height: 100%;
-    min-height: 500px;
 }
 
 footer .footer-widgets.footer.footer-2.dark {
-    padding-block: 220px;
+    padding: 220px 100px 110px 100px;
     background: #3c78d8;
 }
 
@@ -481,6 +478,9 @@ footer .back-to-top.button.icon {
     border: 1px solid #827676;
     z-index: 20;
 }
+footer .container {
+    min-width: 100%;
+}
 
 footer .back-to-top.button.icon:hover {
     background: #3c78d8;
@@ -492,8 +492,6 @@ footer .back-to-top.button.icon:hover svg {
 footer {
     position: relative;
     background: #171717;
-    max-width: 1520px;
-    margin: auto;
 }
 
 footer .positon-footer .title {

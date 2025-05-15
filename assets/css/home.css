@@ -1,8 +1,6 @@
 #clinic-home .clinic-banner {
     width: 100%;
     position: relative;
-    max-width: 1520px;
-    margin: auto;
 }
 
 #clinic-home .clinic-banner img {
@@ -64,8 +62,6 @@
 
 #clinic-home .clinic-section {
     background: #3c78d8;
-    max-width: 1520px;
-    margin: auto;
 }
 
 @media (max-width: 900px) {
@@ -197,8 +193,6 @@
     margin-top: 50px;
     background-color: rgb(215, 236, 249);
     padding: 60px;
-    max-width: 1520px;
-    margin: auto;
 }
 
 #clinic-home .clinic-body-button div {
@@ -295,8 +289,6 @@
     margin-top: 50px !important;
     background-color: rgb(215, 236, 249);
     margin-bottom: 200px !important;
-    margin: auto;
-    max-width: 1520px;
 }
 
 #clinic-home .clinic-body-feature-show .swiper {
