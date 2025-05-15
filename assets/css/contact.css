@@ -97,12 +97,16 @@
     padding: 13px 10px; 
     border-radius: 20px;
     border: 1px solid #bdbdbd;
+    outline: none;
 }
 .container .row-content .content-2 .contact_lienhe .contactbody .content-items .content-item textarea{
     width: 100%;
     padding: 10px; 
     border-radius: 20px;
     border: 1px solid #bdbdbd;
+    resize: none;
+    outline: none;
+    height: 80px;
 }
 .container .row-content .content-2 .contact_lienhe .contactbody .content-items .content-item{
     padding: 10px 35px;
