@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if(menuBtn && overlay && closeBtn) {
         menuBtn.addEventListener('click', function(e) {
-            e.preventDefault();
+            // e.preventDefault();
             overlay.classList.add('active');
         });
         closeBtn.addEventListener('click', function() {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var submenuToggles = document.querySelectorAll('.mobile-menu-content .has-submenu > a');
     submenuToggles.forEach(function(toggle) {
         toggle.addEventListener('click', function(e) {
-            e.preventDefault();
+            // e.preventDefault();
             var parent = this.parentElement;
             parent.classList.toggle('open');
         });

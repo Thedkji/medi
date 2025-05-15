@@ -48,7 +48,7 @@
                     <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-blue.svg">
                     <br>
                     <p>Công ty CLINIC 365 Vietnam International</p>
-                    <p>Trụ sở: Tầng xx tòa nhà xxxxxx, xxx Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số xxx, Đường xx, p.xx, q.xx, Tp. HCM</p>
+                    <!-- <p>Trụ sở: Tầng xx tòa nhà xxxxxx, xxx Cầu Giấy, Hà Nội <br> VP Hồ Chí Minh: Cobi Tower II, số xxx, Đường xx, p.xx, q.xx, Tp. HCM</p> -->
                     <div class="subcribe-footer">
                         <div class="wpcf7 js" id="wpcf7-f15-o3" lang="en-US" dir="ltr">
                             <div class="screen-reader-response">
@@ -104,22 +104,22 @@
                                         <span class="ux-menu-link__text">Đại lý</span>
                                     </a>
                                 </div>
-                                <div class="ux-menu-link flex menu-item">
+                                <!-- <div class="ux-menu-link flex menu-item">
                                     <a class="ux-menu-link__link flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill ux-menu-link__icon" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
                                         </svg>
                                         <span class="ux-menu-link__text">086 201 8966</span>
                                     </a>
-                                </div>
-                                <div class="ux-menu-link flex menu-item">
+                                </div> -->
+                                <!-- <div class="ux-menu-link flex menu-item">
                                     <a class="ux-menu-link__link flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope ux-menu-link__icon" viewBox="0 0 16 16">
                                             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                                         </svg>
                                         <span class="ux-menu-link__text">sales@medring.co.jp</span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="icon">
                                 <a target="_blank" href="https://www.facebook.com/profile.php?id=61574228647002" rel="noopener">
@@ -147,11 +147,11 @@
                                         <span class="ux-menu-link__text">Chính sách bảo mật</span>
                                     </a>
                                 </div>
-                                <div class="ux-menu-link flex menu-item">
+                                <!-- <div class="ux-menu-link flex menu-item">
                                     <a class="ux-menu-link__link flex" target="_blank" rel="noopener noreferrer">
                                         <span class="ux-menu-link__text">MEDi Club</span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
