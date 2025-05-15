@@ -60,4 +60,10 @@ display: flex;
     justify-content: center;
     align-items: center;    
     margin-top: 150px;
+    margin-bottom: 150px;
+}
+@media screen and (max-width: 768px) {
+    .trial-register form {
+        margin-bottom: 34px;
+    }
 }

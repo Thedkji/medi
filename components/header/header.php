@@ -16,7 +16,7 @@
                     <!-- Right Elements -->
                     <div class="flex-col hide-for-medium flex-right">
                         <ul class="desktop-nav header-nav header-nav-main nav nav-right  nav-pills nav-size-large nav-uppercase">
-                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a class="nav-top-link">Giới thiệu</a></li>
+                            <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a href="?page=home" class="nav-top-link">Giới thiệu</a></li>
                             <li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-904 menu-item-design-default has-dropdown"><a href="?page=feature" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Tính năng<i class="icon-angle-down"></i></a></li>
                             <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a href="?page=contact" class="nav-top-link">Liên hệ</a></li>
                             <li class="html header-button-2">
@@ -52,7 +52,7 @@
                     <div id="mobile-menu-overlay" class="mobile-menu-overlay">
                         <div class="mobile-menu-content">
                             <ul>
-                                <li class="has-submenu"><a >Giới thiệu</a></li>
+                                <li class="has-submenu"><a href="?page=home">Giới thiệu</a></li>
                                 <li class="has-submenu"><a href="<?=$url?>?page=feature">Tính năng</a></li>
                                 <li class="has-submenu">
 
