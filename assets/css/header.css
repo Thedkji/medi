@@ -1,7 +1,7 @@
 header .header-main .header-inner {
     display: flex; /* Giữ Flexbox */
     align-items: center; /* Căn giữa theo chiều dọc */
-    width: 100%;
+    min-width: 100%;
 }
 
 header .header.transparent .header-bg-color,
