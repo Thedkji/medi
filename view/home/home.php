@@ -16,16 +16,6 @@
         background-image: url('./assets/imgs/Frame-162-1.png');
     }
 
-    #medi-home .option-container .option-item span {
-        font-size: 16px;
-        display: inline-block;
-        color: white;
-        font-weight: bold;
-        width: 100px;
-        margin-right: 120px;
-        text-align: start;
-        line-height: 25px;
-    }
 </style>
 <div id="medi-home">
     <div class="medi-banner">
@@ -46,7 +36,7 @@
                 </div>
                 <div class="swiper-slide">
                     <a href="###">
-                        <img src="./assets/imgs/banner-tang-tranh-trang-tri-phong-kham-1400x512.png" alt="">
+                        <img src="./assets/imgs/clinic/clinic.jpg" alt="">
                     </a>
                 </div>
             </div>
@@ -55,7 +45,7 @@
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-    </div>
+    </div> 
 
     <div class="medi-section">
         <section class="container">

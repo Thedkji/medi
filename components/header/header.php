@@ -18,7 +18,7 @@
                         <ul class="desktop-nav header-nav header-nav-main nav nav-right  nav-pills nav-size-large nav-uppercase">
                             <li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 menu-item-design-default"><a class="nav-top-link">Giới thiệu</a></li>
                             <li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-904 menu-item-design-default has-dropdown"><a class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Tính năng<i class="icon-angle-down"></i></a></li>
-                            <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a class="nav-top-link">Liên hệ</a></li>
+                            <li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021 menu-item-design-default"><a href="?page=contact" class="nav-top-link">Liên hệ</a></li>
                             <li class="html header-button-2">
                                 <div class="header-button btn-desktop">
                                     <a href="?page=trial-register" rel="noopener noreferrer" target="_blank" class="button secondary is-gloss is-large" style="border-radius:99px;">
@@ -55,7 +55,7 @@
                                 <li class="has-submenu"><a >Giới thiệu</a></li>
                                 <li class="has-submenu"><a >Tính năng</a></li>
                                 <li class="has-submenu">
-                                    <a >liên hệ 
+                                    <a href="?page=contact">liên hệ 
                                         <span class="submenu-toggle">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
