@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="<?php echo $url; ?>assets/imgs/clinic/logo-clinic365.svg">
-    <meta property="og:description" content="Giải pháp quản lý bệnh viện và phòng khám hiệu quả, giao diện dễ sử dụng.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="<?php echo $url; ?>assets/imgs/clinic/logo-clinic365.svg">
-    <meta name="twitter:description" content="Giải pháp quản lý bệnh viện và phòng khám hiệu quả, giao diện dễ sử dụng.">
+    <link rel="shortcut icon" href="./assets/imgs/clinic/logo_meta.png" type="image/png">
     <title>CLINIC 365</title>
     <link rel="stylesheet" href="./assets/library/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/css-reset.css?v=<?= time() ?>" />
