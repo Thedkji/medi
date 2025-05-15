@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta property="og:image" content="<?php echo $url; ?>assets/imgs/clinic/logo-clinic365.svg">
+    <meta property="og:description" content="Giải pháp quản lý bệnh viện và phòng khám hiệu quả, giao diện dễ sử dụng.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="<?php echo $url; ?>assets/imgs/clinic/logo-clinic365.svg">
+    <meta name="twitter:description" content="Giải pháp quản lý bệnh viện và phòng khám hiệu quả, giao diện dễ sử dụng.">
+    <title>CLINIC 365</title>
     <link rel="stylesheet" href="./assets/library/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/css-reset.css?v=<?= time() ?>" />
 </head>
@@ -32,6 +37,9 @@
                 break;
             case "trial-register":
                 include_once 'view/trial-register/trial-register.php';
+                break;
+            case "contact":
+                include_once 'view/contact/contact.php';
                 break;
             default:
                 include_once 'view/home/home.php';

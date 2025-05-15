@@ -81,14 +81,17 @@
 }
 
 @media (max-width: 988px) {
-    #clinic-home .clinic-section {
-        height: 300px;
+    #medi-home .medi-section {
+        height: 250px;
         padding-block: 20px;
     }
 
     #clinic-home .clinic-section section {
         grid-template-columns: repeat(2, 1fr);
-        row-gap: 30px;
+        row-gap: 10px;
+    }
+    #medi-home .medi-section section div p {
+        line-height: 25px;
     }
 
     #clinic-home .clinic-section section div:nth-child(2) {
@@ -96,13 +99,12 @@
     }
 }
 
-#clinic-home .clinic-section section div {
-    height: 120px;
+#medi-home .medi-section section div {
+    height: 100px;
     color: white;
     border-right: 1px solid white;
     align-content: start;
-    text-align: center;
-    padding: 0 20px;
+    text-align: center; 
 }
 
 #clinic-home .clinic-section section div:last-child {
@@ -112,13 +114,13 @@
 #clinic-home .clinic-section section div h2 {
     margin-bottom: 10px;
     color: white;
-    font-size: clamp(25px, 3.5vw, 32px);
+    font-size: clamp(20px, 3.5vw, 32px);
 }
 
 #clinic-home .clinic-section section div p {
     font-weight: bold;
     line-height: 30px;
-    font-size: 16px;
+    font-size: clamp(12px, 2.5vw, 16px);
 }
 
 #clinic-home .clinic-body h1:first-child {
@@ -240,7 +242,17 @@
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
+    padding: 10px 10px;
+    text-align: start;
+}
+#medi-home .option-container .option-item span {
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    max-width: 100%;
+    text-align: start;
+    line-height: 25px;
 }
 
 #clinic-home .option-container .option-item {

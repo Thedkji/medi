@@ -46,7 +46,7 @@
                 </div>
                 <div class="swiper-slide">
                     <a href="###">
-                        <img src="./assets/imgs/banner-tang-tranh-trang-tri-phong-kham-1400x512.png" alt="">
+                        <img src="./assets/imgs/clinic/clinic.jpg" alt="">
                     </a>
                 </div>
             </div>
@@ -55,7 +55,7 @@
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-    </div>
+    </div> 
 
     <div class="clinic-section">
         <section class="container">
