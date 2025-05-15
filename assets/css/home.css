@@ -1,34 +1,34 @@
-#medi-home .medi-banner {
+#clinic-home .clinic-banner {
     width: 100%;
     position: relative;
 }
 
-#medi-home .medi-banner img {
+#clinic-home .clinic-banner img {
     width: 100%;
     min-height: 350px;
 }
 
-#medi-home .medi-banner .swiper-slide {
+#clinic-home .clinic-banner .swiper-slide {
     position: relative;
 }
 
-#medi-home .medi-banner .swiper-slide .text-inner {
+#clinic-home .clinic-banner .swiper-slide .text-inner {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 60%;
 }
 
-#medi-home .medi-banner .swiper-slide .text-inner h1 {
+#clinic-home .clinic-banner .swiper-slide .text-inner h1 {
     font-size: clamp(20px, 3.0vw, 40px);
 }
 
-#medi-home .medi-banner .swiper-slide .text-inner h2 {
+#clinic-home .clinic-banner .swiper-slide .text-inner h2 {
     font-size: clamp(24px, 4vw, 48px);
 }
 
 
-#medi-home .medi-banner .swiper-slide .text-inner a {
+#clinic-home .clinic-banner .swiper-slide .text-inner a {
     display: inline-block;
     padding: 10px 20px;
     background-image: linear-gradient(to left,
@@ -43,36 +43,36 @@
     border-radius: 30px;
 }
 
-#medi-home .medi-banner .swiper-slide .text-inner a:hover {
+#clinic-home .clinic-banner .swiper-slide .text-inner a:hover {
     background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
 }
 
-#medi-home .medi-banner .swiper-button-next {
+#clinic-home .clinic-banner .swiper-button-next {
     right: 30px;
 }
 
-#medi-home .medi-banner .swiper-button-prev::after,
-#medi-home .medi-banner .swiper-button-next::after {
+#clinic-home .clinic-banner .swiper-button-prev::after,
+#clinic-home .clinic-banner .swiper-button-next::after {
     position: relative;
 }
 
-#medi-home .medi-banner .swiper-button-prev {
+#clinic-home .clinic-banner .swiper-button-prev {
     left: 30px;
 }
 
-#medi-home .medi-section {
+#clinic-home .clinic-section {
     background: #3c78d8;
 }
 
 @media (max-width: 900px) {
 
-    #medi-home .medi-banner .swiper-button-next,
-    #medi-home .medi-banner .swiper-button-prev {
+    #clinic-home .clinic-banner .swiper-button-next,
+    #clinic-home .clinic-banner .swiper-button-prev {
         display: none;
     }
 }
 
-#medi-home .medi-section section {
+#clinic-home .clinic-section section {
     height: 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -86,7 +86,7 @@
         padding-block: 20px;
     }
 
-    #medi-home .medi-section section {
+    #clinic-home .clinic-section section {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 10px;
     }
@@ -94,7 +94,7 @@
         line-height: 25px;
     }
 
-    #medi-home .medi-section section div:nth-child(2) {
+    #clinic-home .clinic-section section div:nth-child(2) {
         border-right: none;
     }
 }
@@ -107,23 +107,23 @@
     text-align: center; 
 }
 
-#medi-home .medi-section section div:last-child {
+#clinic-home .clinic-section section div:last-child {
     border-right: none;
 }
 
-#medi-home .medi-section section div h2 {
+#clinic-home .clinic-section section div h2 {
     margin-bottom: 10px;
     color: white;
     font-size: clamp(20px, 3.5vw, 32px);
 }
 
-#medi-home .medi-section section div p {
+#clinic-home .clinic-section section div p {
     font-weight: bold;
     line-height: 30px;
     font-size: clamp(12px, 2.5vw, 16px);
 }
 
-#medi-home .medi-body h1:first-child {
+#clinic-home .clinic-body h1:first-child {
     text-align: center;
     color: #3c78d8;
     position: relative;
@@ -131,7 +131,7 @@
     font-size: clamp(25px, 2vw, 35px);
 }
 
-#medi-home .medi-body h1:first-child::after {
+#clinic-home .clinic-body h1:first-child::after {
     content: "";
     display: block;
     width: 10%;
@@ -143,7 +143,7 @@
     transform: translateX(-50%);
 }
 
-#medi-home .medi-body>.content {
+#clinic-home .clinic-body>.content {
     display: flex;
     align-items: center;
     gap: min(70px, 5vw);
@@ -151,7 +151,7 @@
     justify-content: space-between;
 }
 
-#medi-home .medi-body .content img {
+#clinic-home .clinic-body .content img {
     width: clamp(300px, 100%, 630px);
     height: auto;
     max-width: 60%;
@@ -159,48 +159,48 @@
 }
 
 @media (max-width:950px) {
-    #medi-home .medi-body>.content {
+    #clinic-home .clinic-body>.content {
         display: flex;
         gap: 60px;
         flex-direction: column;
     }
 
-    #medi-home .medi-body .content img {
+    #clinic-home .clinic-body .content img {
         min-width: 100%;
         height: auto;
         object-fit: cover;
     }
 
-    #medi-home .medi-body .content .content-item {
+    #clinic-home .clinic-body .content .content-item {
         min-width: 100%;
     }
 }
 
-#medi-home .medi-body .content-item h2 {
+#clinic-home .clinic-body .content-item h2 {
     color: #3c78d8;
     font-size: 25px;
 }
 
-#medi-home .medi-body .content-item ul {
+#clinic-home .clinic-body .content-item ul {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-#medi-home .medi-body-button {
+#clinic-home .clinic-body-button {
     margin-top: 50px;
     background-color: rgb(215, 236, 249);
     padding: 60px;
 }
 
-#medi-home .medi-body-button div {
+#clinic-home .clinic-body-button div {
     display: flex;
     justify-content: center;
     gap: 5px;
 }
 
-#medi-home .medi-body-button button {
+#clinic-home .clinic-body-button button {
     width: 200px;
     padding: 20px;
     border: none;
@@ -210,24 +210,24 @@
 }
 
 @media (max-width:680px) {
-    #medi-home .medi-body-button button {
+    #clinic-home .clinic-body-button button {
         width: 150px;
         padding: 15px;
         font-size: 13px;
     }
 }
 
-#medi-home .medi-body-button a:nth-child(1) button {
+#clinic-home .clinic-body-button a:nth-child(1) button {
     border-radius: 15px 0 0 15px;
     background: #3c78d8;
 }
 
-#medi-home .medi-body-button a:nth-child(2) button {
+#clinic-home .clinic-body-button a:nth-child(2) button {
     border-radius: 0 15px 15px 0;
     background: #FFB922;
 }
 
-#medi-home .option-container {
+#clinic-home .option-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(150px, 1fr));
     justify-content: center;
@@ -235,7 +235,7 @@
     margin-top: 30px;
 }
 
-#medi-home .option-container .option-item button {
+#clinic-home .option-container .option-item button {
     width: 100%;
     height: 100%;
     border: none;
@@ -255,42 +255,43 @@
     line-height: 25px;
 }
 
-#medi-home .option-container .option-item {
+#clinic-home .option-container .option-item {
     width: 100%;
     height: 130px;
 }
 
 @media (max-width:1094px) {
-    #medi-home .option-container .option-item {
+    #clinic-home .option-container .option-item {
         height: 100px;
     }
 
-    #medi-home .option-container {
+    #clinic-home .option-container {
         grid-template-columns: repeat(3, minmax(150px, 1fr));
     }
 }
 
 @media (max-width:814px) {
-    #medi-home .option-container {
+    #clinic-home .option-container {
         grid-template-columns: repeat(2, minmax(150px, 1fr));
         gap: 20px;
     }
 }
 
 
-#medi-home .medi-body-feature-show {
+#clinic-home .clinic-body-feature-show {
     margin-top: 50px;
     background-color: rgb(215, 236, 249);
+    margin-bottom: 200px;
 }
 
-#medi-home .medi-body-feature-show .swiper {
+#clinic-home .clinic-body-feature-show .swiper {
     width: 70%;
     margin: 30px auto;
 }
 
 @media (max-width:780px) {
 
-    #medi-home .medi-body-feature-show .swiper {
+    #clinic-home .clinic-body-feature-show .swiper {
         width: 90%;
     }
 
@@ -298,19 +299,19 @@
 
 @media (max-width:900px) {
 
-    #medi-home .medi-body-feature-show .swiper-button-next::after,
-    #medi-home .medi-body-feature-show .swiper-button-prev::after {
+    #clinic-home .clinic-body-feature-show .swiper-button-next::after,
+    #clinic-home .clinic-body-feature-show .swiper-button-prev::after {
         display: none;
     }
 
 }
 
-#medi-home .medi-body-feature-show .swiper .swiper-slide {
+#clinic-home .clinic-body-feature-show .swiper .swiper-slide {
     margin: auto;
     text-align: center;
 }
 
-#medi-home .medi-body-feature-show .swiper .swiper-slide img {
+#clinic-home .clinic-body-feature-show .swiper .swiper-slide img {
     width: 85%;
     max-height: 450px;
     object-fit: cover;
@@ -318,18 +319,18 @@
     border-radius: 10px;
 }
 
-#medi-home .medi-body-evaluate {
+#clinic-home .clinic-body-evaluate {
     padding-bottom: 150px;
 }
 
-#medi-home .medi-body-evaluate .swiper {
+#clinic-home .clinic-body-evaluate .swiper {
     width: 70%;
     margin: 20px auto;
 }
 
 
 
-#medi-home .medi-body-evaluate .swiper .item {
+#clinic-home .clinic-body-evaluate .swiper .item {
     width: 80%;
     margin: auto;
     display: flex;
@@ -337,46 +338,46 @@
     gap: 30px;
 }
 
-#medi-home .medi-body-evaluate .swiper .item img {
+#clinic-home .clinic-body-evaluate .swiper .item img {
     width: 260px;
     height: 173px;
     border-radius: 10px;
 }
 
 @media (max-width:1178px) {
-    #medi-home .medi-body-evaluate .swiper {
+    #clinic-home .clinic-body-evaluate .swiper {
         width: 90%;
     }
 }
 
 @media (max-width:924px) {
-    #medi-home .medi-body-evaluate .swiper .item {
+    #clinic-home .clinic-body-evaluate .swiper .item {
         flex-direction: column;
     }
 
-    #medi-home .medi-body-evaluate .swiper .swiper-slide {
+    #clinic-home .clinic-body-evaluate .swiper .swiper-slide {
         height: 450px;
     }
 
-    #medi-home .medi-body-evaluate .swiper .item img {
+    #clinic-home .clinic-body-evaluate .swiper .item img {
         margin: auto;
         width: 100%;
         height: clamp(240px, 40vh, 280px);
         object-fit: cover;
     }
 
-    #medi-home .medi-body-evaluate .swiper .swiper-button-next::after,
-    #medi-home .medi-body-evaluate .swiper .swiper-button-prev::after {
+    #clinic-home .clinic-body-evaluate .swiper .swiper-button-next::after,
+    #clinic-home .clinic-body-evaluate .swiper .swiper-button-prev::after {
         display: none;
     }
 }
 
 
-#medi-home .medi-body-evaluate .swiper .item>.content {
+#clinic-home .clinic-body-evaluate .swiper .item>.content {
     color: #777777;
 }
 
-#medi-home .medi-body-evaluate .swiper .item>.content>p:nth-child(1) {
+#clinic-home .clinic-body-evaluate .swiper .item>.content>p:nth-child(1) {
     font-size: 16px;
     margin-bottom: 20px;
     display: -webkit-box;
@@ -386,53 +387,53 @@
     -webkit-box-orient: vertical;
 }
 
-#medi-home .medi-banner-2 img {
+#clinic-home .clinic-banner-2 img {
     width: 100%;
 }
 
-#medi-home .medi-section-icon {
+#clinic-home .clinic-section-icon {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: 30px auto;
 }
 
-#medi-home .medi-section-icon div {
+#clinic-home .clinic-section-icon div {
     text-align: center;
 }
 
 @media (max-width:1180px) {
-    #medi-home .medi-section-icon {
+    #clinic-home .clinic-section-icon {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width:868px) {
-    #medi-home .medi-section-icon {
+    #clinic-home .clinic-section-icon {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width:600px) {
-    #medi-home .medi-section-icon {
+    #clinic-home .clinic-section-icon {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #medi-home .medi-section-icon img {
+    #clinic-home .clinic-section-icon img {
         width: 130px;
     }
 }
 
-#medi-home .medi-section-icon img {
+#clinic-home .clinic-section-icon img {
     max-width: 220px;
 }
 
-#medi-home .medi-news {
+#clinic-home .clinic-news {
     background-color: #D7ECF9;
     padding-bottom: 180px;
 }
 
-#medi-home .medi-news>.news-container {
+#clinic-home .clinic-news>.news-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -441,47 +442,47 @@
 }
 
 @media screen and (max-width: 850px) {
-    #medi-home .medi-news>.news-container {
+    #clinic-home .clinic-news>.news-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
 
-#medi-home .medi-news>.news-container .new-item {
+#clinic-home .clinic-news>.news-container .new-item {
     width: 100%;
     height: 100%;
     background-color: white;
 }
 
-#medi-home .medi-news>.news-container .new-item img {
+#clinic-home .clinic-news>.news-container .new-item img {
     width: 100%;
     height: 65%;
     object-fit: cover;
 }
 
-#medi-home .medi-news>.news-container .new-item .content {
+#clinic-home .clinic-news>.news-container .new-item .content {
     padding: 10px;
 }
 
-#medi-home .medi-news>.news-container .new-item .content p:first-child {
+#clinic-home .clinic-news>.news-container .new-item .content p:first-child {
     color: #555555;
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-#medi-home .medi-news>.news-container .new-item .content p:nth-child(2) {
+#clinic-home .clinic-news>.news-container .new-item .content p:nth-child(2) {
     color: #3c78d8;
     font-weight: bold;
     font-size: 17px;
 }
 
-#medi-home .medi-news .btn-list {
+#clinic-home .clinic-news .btn-list {
     text-align: center;
     display: block;
 }
 
-#medi-home .medi-news .btn-list button {
+#clinic-home .clinic-news .btn-list button {
     background-image: linear-gradient(to left,
             #00c853,
             #00bfa5,

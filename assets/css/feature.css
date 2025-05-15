@@ -6,6 +6,7 @@
     color: #3c78d8;
     position: relative;
     width: max-content;
+    margin:auto;
 }
 
 #clinic-feature>div>h1:first-child::after {

@@ -1,6 +1,5 @@
-
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper("#clinic-home .clinic-banner .swiper", {
+    const swiper = new Swiper("#clinic-home .clinic-body-evaluate .swiper", {
         direction: "horizontal", // Hướng chuyển động ngang
         loop: true, // Cho phép lặp lại vòng quay slider
 
@@ -14,20 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
             nextEl: ".swiper-button-next", // Nút tiến lên
         },
 
-        scrollbar: {
-            el: ".swiper-scrollbar", // Thanh cuộn nếu có
-        },
-
         effect: "slide", // Hiệu ứng chuyển động giữa các slide
 
         breakpoints: {
-            680: {
+            640: {
                 slidesPerView: 1,
                 spaceBetween: 20,
-                navigation: {
-                    prevEl: ".swiper-button-prev", // Nút quay lại
-                    nextEl: ".swiper-button-next", // Nút tiến lên
-                },
             },
             768: {
                 slidesPerView: 1,
@@ -45,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
         //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
         // },
 
-        // Tắt tính năng vuốt qua
+        // // Tắt tính năng vuốt qua
         // simulateTouch: false, // Vô hiệu hóa hành động vuốt
     });
 })

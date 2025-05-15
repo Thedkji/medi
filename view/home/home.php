@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="./assets/css/home.css?v=<?= time() ?>">
 <script src="./assets/js/home/banner-header.js"></script>
-<script src="./assets/js/home/medi-body-feature-show.js"></script>
-<script src="./assets/js/home/medi-body-evaluate.js"></script>
+<script src="./assets/js/home/clinic-body-feature-show.js"></script>
+<script src="./assets/js/home/clinic-body-evaluate.js"></script>
 <style>
-    #medi-home .medi-body .content-item li {
+    #clinic-home .clinic-body .content-item li {
         list-style: none;
         background-repeat: no-repeat;
         padding-left: 30px;
@@ -12,13 +12,23 @@
         font-size: clamp(14px, 1.5vw, 16px);
     }
 
-    #medi-home .option-container .option-item button {
+    #clinic-home .option-container .option-item button {
         background-image: url('./assets/imgs/Frame-162-1.png');
     }
 
+    #clinic-home .option-container .option-item span {
+        font-size: 16px;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        width: 100px;
+        margin-right: 120px;
+        text-align: start;
+        line-height: 25px;
+    }
 </style>
-<div id="medi-home">
-    <div class="medi-banner">
+<div id="clinic-home">
+    <div class="clinic-banner">
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -47,7 +57,7 @@
         <div class="swiper-button-next"></div>
     </div> 
 
-    <div class="medi-section">
+    <div class="clinic-section">
         <section class="container">
             <div>
                 <h2 class="item-number">428</h2>
@@ -68,7 +78,7 @@
         </section>
     </div>
 
-    <div class="medi-body container">
+    <div class="clinic-body container">
         <h1>CLINIC <span>365</span> – SỰ LỰA CHỌN HOÀN HẢO CHO PHÒNG KHÁM CỦA BẠN</h1>
         <div class="content">
             <img src="./assets/imgs/clinic/HS-1.png" alt="">
@@ -129,7 +139,7 @@
         </div>
     </div>
 
-    <div class="medi-body-button">
+    <div class="clinic-body-button">
         <div>
             <a href="###">
                 <button>15 ngày miễn phí</button>
@@ -140,7 +150,7 @@
         </div>
     </div>
 
-    <div class="medi-body medi-body-option">
+    <div class="clinic-body clinic-body-option">
         <h1>CLINIC 365 - LÀ LỰA CHỌN HÀNG ĐẦU CỦA PHÒNG KHÁM ĐA KHOA, CHUYÊN KHOA</h1>
 
         <div class="option-container container">
@@ -231,7 +241,7 @@
         </div>
     </div>
 
-    <div class="medi-body medi-body-feature-show">
+    <div class="clinic-body clinic-body-feature-show">
         <h1>TÍNH NĂNG ƯU VIỆT CỦA PHẦN MỀM CLINIC</h1>
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -264,12 +274,11 @@
         </div>
     </div>
 
-    <div class="medi-body medi-body-evaluate">
+    <!-- <div class="clinic-body clinic-body-evaluate">
         <h1>ĐÁNH GIÁ CỦA CHUYÊN GIA</h1>
 
         <div class="swiper">
             <div class="swiper-wrapper">
-                <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="item">
                         <img src="./assets/imgs/Rectangle-84.png" alt="">
@@ -311,13 +320,13 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- <div class="medi-banner-2">
+    <!-- <div class="clinic-banner-2">
         <img src="./assets/imgs/7718532_Mesa-de-trabajo-1-2048x779.jpg" alt="">
     </div> -->
 
-    <!-- <div class="medi-body medi-section-icon container">
+    <!-- <div class="clinic-body clinic-section-icon container">
         <div>
             <img src="./assets/imgs/alnt.png" alt="">
         </div>
@@ -344,7 +353,7 @@
         </div>
     </div> -->
 
-    <!-- <div class="medi-body medi-news">
+    <!-- <div class="clinic-body clinic-news">
         <h1>TIN TỨC LIÊN QUAN</h1>
 
         <div class="news-container container">
