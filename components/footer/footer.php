@@ -5,6 +5,7 @@
         background-size: 100% 100%;
         height: 261px;
         width: 60%;
+        max-width: 1000px;
         position: absolute;
         top: -20%;
         left: 50%;

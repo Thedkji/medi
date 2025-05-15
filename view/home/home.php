@@ -22,7 +22,6 @@
         color: white;
         font-weight: bold;
         width: 100px;
-        margin-right: 120px;
         text-align: start;
         line-height: 25px;
     }

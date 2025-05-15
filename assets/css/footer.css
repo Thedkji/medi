@@ -491,7 +491,9 @@ footer .back-to-top.button.icon:hover svg {
 
 footer {
     position: relative;
-    background: #171717
+    background: #171717;
+    max-width: 1520px;
+    margin: auto;
 }
 
 footer .positon-footer .title {

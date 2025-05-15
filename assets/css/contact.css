@@ -1,6 +1,10 @@
 .body {
     margin: 100px 0 200px 0;
 }
+#contact {
+    max-width: 1520px;
+    margin: auto;
+}
 .container.body{
     background: linear-gradient(284.05deg, #3c78d8 8.66%, #2a4d86 92.88%);
     height: auto;
