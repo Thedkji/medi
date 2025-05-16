@@ -139,7 +139,9 @@
     margin-top: 15px;
     margin-bottom: 25px;
 }
-
+.container-body .row-content .content-2 .contact_lienhe .contactbody .content-items .btn-submit-contact:hover {
+    background-image: linear-gradient(to right, #00c853, #00bfa5, #00acc1, #3c78d8) !important;
+}
 .container-body .row-content .content-2 .contact_lienhe .contactbody .content-items .btn-submit-contact a {
     color: white;
     text-align: center; 
