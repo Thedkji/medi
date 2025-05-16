@@ -30,11 +30,18 @@
             grid-template-columns: 1fr;
             gap: 5px;
         }
+        footer .dark input[type=button] {
+            width: 100px;
+            font-size: 13px;
+        }
     }
     @media (max-width: 770px) {
         .flex_footer {
-            margin-top: 130px;
+            margin-top: 80px;
             gap: 20px;
+        }
+        footer .footer-widgets.footer.footer-2.dark {
+            padding: 200px 50px 150px 50px;
         }
     }
 </style>
@@ -42,7 +49,7 @@
 
 <footer id="footer" class="footer-wrapper">
     <div class="footer-widgets footer footer-2 dark">
-        <div class="row dark large-columns-2 mb-0 ">
+        <div class="row dark large-columns-2 mb-0 width-content">
             <div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html">
                 <div class="textwidget custom-html-widget">
                     <img class="header_logo header-logo" src="./assets/imgs/clinic/logo-bg-blue.svg">

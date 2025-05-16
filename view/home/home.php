@@ -37,7 +37,6 @@
                     </a>
                     <div class="text-inner container m-auto">
                         <h1 class="color-secondary"><span class="color-primary">Clinic</span> <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
-                        <p>&nbsp;</p>
                         <a href="###" target="_self">
                             <span>Dùng thử miễn phí ngay</span>
                         </a>
@@ -45,7 +44,7 @@
                 </div>
                 <div class="swiper-slide">
                     <a href="###">
-                        <img src="./assets/imgs/clinic/clinic.jpg" alt="">
+                        <img src="./assets/imgs/clinic/clinic.png" alt="">
                     </a>
                 </div>
             </div>
@@ -139,7 +138,7 @@
     </div>
 
     <div class="clinic-body-button">
-        <div>
+        <div class="width-content">
             <a href="###">
                 <button>15 ngày miễn phí</button>
             </a>
@@ -242,7 +241,7 @@
 
     <div class="clinic-body clinic-body-feature-show">
         <h1>TÍNH NĂNG ƯU VIỆT CỦA PHẦN MỀM CLINIC</h1>
-        <div class="swiper">
+        <div class="swiper width-content">
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">

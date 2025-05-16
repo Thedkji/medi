@@ -2,8 +2,8 @@
 
 
 <div id="contact">
-    <section class="container body">
-        <div class="row-content">
+    <section class="container-body container body">
+        <div class="row-content container">
             <div class="content-1">
                 <h2 class="title-contact-1">
                     Phần mềm quản lý bệnh viện &amp; phòng khám đa khoa
