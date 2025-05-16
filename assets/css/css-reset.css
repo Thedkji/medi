@@ -24,6 +24,10 @@ button {
     cursor: pointer;
 }
 
+.width-content{
+    max-width: 1520px;
+}
+
 .container {
     padding-inline: 100px;
     margin: auto;
@@ -59,9 +63,16 @@ button {
     }
 }
 
-@media only screen and (max-width: 5000px) {
+@media only screen and (min-width: 1440px) {
     .container {
         max-width: 1520px;
+    }
+    #clinic-home .clinic-banner img {
+        max-height: 350px;
+        min-height: 350px;
+    }
+    #clinic-home .clinic-banner .swiper-slide .text-inner a {
+        padding: 15px 20px;
     }
 }
 
@@ -78,7 +89,7 @@ button {
 }
 @media screen and (max-width: 500px) {
     .container {
-        padding-inline: 5px;
+        padding-inline: 15px;
     }
 }
 

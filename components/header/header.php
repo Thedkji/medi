@@ -1,5 +1,12 @@
 <link rel="stylesheet" href="./assets/css/header.css?v=<?=time()?>" />
 <script src="./assets/js/header.js?v=<?=time()?>"></script>
+<style>
+    header .header-wrapper,
+    header .header-main {
+        margin: 0;
+        padding: 0;
+    }
+</style>
 <header id="header" class="header has-transparent has-sticky sticky-jump transparent" style="">
     <div class="header-wrapper">
         <div id="masthead" class="header-main">
