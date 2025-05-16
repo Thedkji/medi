@@ -21,13 +21,13 @@
 
 #clinic-home .clinic-banner .swiper-slide .text-inner {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     width: 60%;
 }
 
 #clinic-home .clinic-banner .swiper-slide .text-inner h1 {
-    font-size: clamp(20px, 3.0vw, 37px);
+    font-size: clamp(13px, 3.0vw, 34px);
 }
 
 #clinic-home .clinic-banner .swiper-slide .text-inner h2 {
@@ -316,8 +316,8 @@
         padding: 25px 15px;
     }
     #clinic-home .clinic-banner img {
-        min-height: 250px;
-        max-height: 250px;
+        min-height: 200px;
+        max-height: 200px;
     }
 }
 
@@ -442,7 +442,17 @@
     #clinic-home .clinic-section-icon {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    #clinic-home .clinic-banner .swiper-slide .text-inner {
+        position: absolute;
+        top: 55%;
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        width: 60%;
+        text-align: center; 
+    }
+    #clinic-home .clinic-banner .swiper-slide .text-inner a {
+        padding: 11px 20px;
+    }
     #clinic-home .clinic-section-icon img {
         width: 130px;
     }
@@ -520,7 +530,7 @@
     color: white;
 }
 @media screen and (min-width: 2080px) {
-        #clinic-home .clinic-banner .swiper-slide .text-inner {
+    #clinic-home .clinic-banner .swiper-slide .text-inner {
         position: absolute;
         top: 50%;
         left: 50%; 
