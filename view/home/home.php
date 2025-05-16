@@ -37,7 +37,7 @@
                     </a>
                     <div class="text-inner container m-auto">
                         <h1 class="color-secondary"><span class="color-primary">Clinic</span> <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
-                        <a href="###" target="_self">
+                        <a href="?page=trial-register" target="_self">
                             <span>Dùng thử miễn phí ngay</span>
                         </a>
                     </div>
