@@ -33,7 +33,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <a href="###">
-                        <img src="./assets/imgs/banner-med2.png" alt="">
+                        <img src="./assets/imgs/clinic/clinic.png" alt="">
                     </a>
                     <div class="text-inner container m-auto">
                         <h1 class="color-secondary"><span class="color-primary">Clinic</span> <span class="color-365">365</span> – Phần mềm quản lý phòng khám &amp; nhà thuốc hiệu quả.</h1>
@@ -42,11 +42,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <a href="###">
-                        <img src="./assets/imgs/clinic/clinic.png" alt="">
+                        <img src="./assets/imgs/clinic/banner-med2.png" alt="">
                     </a>
-                </div>
+                </div> -->
             </div>
             <div class=" swiper-pagination">
             </div>
