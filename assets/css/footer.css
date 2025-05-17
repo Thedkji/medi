@@ -522,8 +522,10 @@ footer .positon-footer .input-email input::placeholder {
 footer .positon-footer .input-email button {
     position: absolute;
     right: 0;
+    top: 0;
     width: 35%;
     height: 100%;
+    max-height: 40px;
     border-radius: 20px;
     border: none;
     background-image: linear-gradient(to left, #00c853, #00bfa5, #00acc1, #3c78d8) !important;

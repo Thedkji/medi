@@ -442,14 +442,6 @@
     #clinic-home .clinic-section-icon {
         grid-template-columns: repeat(2, 1fr);
     }
-    #clinic-home .clinic-banner .swiper-slide .text-inner {
-        position: absolute;
-        top: 55%;
-        left: 50%; 
-        transform: translate(-50%, -50%); 
-        width: 60%;
-        text-align: center; 
-    }
     #clinic-home .clinic-banner .swiper-slide .text-inner a {
         padding: 11px 20px;
     }

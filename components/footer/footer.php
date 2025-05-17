@@ -4,7 +4,7 @@
         background-image: url('./assets/imgs/banner_footer.png');
         background-size: 100% 100%;
         height: 261px;
-        width: 60%;
+        width: 90%;
         max-width: 1000px;
         position: absolute;
         top: -20%;
@@ -15,8 +15,8 @@
     
     @media (max-width: 900px) {
         footer .positon-footer {
-            width: 85%;
-            padding: 40px 0;
+            width: 90%;
+            padding: 10px 0;
         }
         .positon-footer .title h2 {
             font-size: 20px;
@@ -24,15 +24,27 @@
         footer .positon-footer .input-email button {
             width: 100%;
             font-size: 15px;
+            height: 40px;
+            position: unset;
         }
-        footer .input-email{
+        footer .positon-footer .input-email #contactForm {
             display: grid;
             grid-template-columns: 1fr;
             gap: 5px;
         }
+        footer .positon-footer .input-email #contactForm .g-recaptcha div{
+            margin: auto;
+        }
         footer .dark input[type=button] {
             width: 100px;
             font-size: 13px;
+        }
+        
+    }
+    @media (min-width: 900px) {
+        footer .positon-footer .input-email #contactForm .g-recaptcha div{
+            margin: 6px auto;
+            /* display: none; */
         }
     }
     @media (max-width: 770px) {
@@ -43,6 +55,35 @@
         footer .footer-widgets.footer.footer-2.dark {
             padding: 200px 50px 150px 50px;
         }
+    }
+
+    /* Thông báo nổi */
+    .toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        min-width: 250px;
+        padding: 15px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        z-index: 1000;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .toast.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .toast.success {
+        background-color: #28a745;
+    }
+
+    .toast.error {
+        background-color: #dc3545;
     }
 </style>
 
@@ -156,13 +197,66 @@
         </div>
 
         <div class="input-email">
-            <input type="text" placeholder="Nhập email hoặc số điện thoại...">
-
-            <a>
-                <button type="button">
-                    Đăng ký ngay
-                </button>
-            </a>
+            <?php 
+                $public_key = "6Lf-wD0rAAAAAFbE7s50J6dD0OJgZ_LDtLUX86IR";
+                $private_key = "6Lf-wD0rAAAAAAJuSTV9GRRKGPLnBYuR46ic4ZLU4";
+            ?>
+            <form id="contactForm">
+                <input type="text" name="contact" id="contact" placeholder="Nhập email..." required>
+                <div class="g-recaptcha" data-sitekey="<?php print $public_key; ?>"></div>
+                <button type="submit">Đăng ký ngay</button>
+            </form>
         </div>
     </div>
 </footer>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        function showToast(message, type) {
+            const toast = $('<div class="toast"></div>').text(message);
+            toast.addClass(type); 
+            $('body').append(toast);
+
+            setTimeout(() => {
+                toast.addClass('show');
+            }, 100);
+
+            setTimeout(() => {
+                toast.removeClass('show');
+                setTimeout(() => {
+                    toast.remove();
+                }, 300);
+            }, 3000);
+        }
+
+        $('#contactForm').on('submit', function(event) {
+            event.preventDefault(); 
+
+            const contact = $('#contact').val();
+            const $responseDiv = $('#response');
+
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(contact)) {
+                showToast('Vui lòng nhập email hợp lệ!', 'error');
+                return;
+            }
+
+            $responseDiv.html('<p>Đang gửi...</p>');
+
+            $.ajax({
+                url: 'send_email.php',
+                type: 'POST',
+                data: { contact: contact },
+                dataType: 'json',
+                success: function(result) {
+                    // showToast(result.message, 'success');
+                    showToast('Email đã được gửi thành công.', 'success');
+                },
+                error: function() {
+                    showToast('Lỗi khi gửi email!', 'error');
+                }
+            });
+        });
+    });
+</script>
