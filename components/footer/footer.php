@@ -85,6 +85,7 @@
     .toast.error {
         background-color: #dc3545;
     }
+    
 </style>
 
 
@@ -197,25 +198,25 @@
         </div>
 
         <div class="input-email">
-            <?php 
-                $public_key = "6Lf-wD0rAAAAAFbE7s50J6dD0OJgZ_LDtLUX86IR";
-                $private_key = "6Lf-wD0rAAAAAAJuSTV9GRRKGPLnBYuR46ic4ZLU4";
-            ?>
-            <form id="contactForm">
+            <form id="contactForm" method="POST">
                 <input type="text" name="contact" id="contact" placeholder="Nhập email..." required>
-                <div class="g-recaptcha" data-sitekey="<?php print $public_key; ?>"></div>
-                <button type="submit">Đăng ký ngay</button>
+                <div class="g-recaptcha" id="recaptcha-container" data-sitekey="6Lf-wD0rAAAAAFbE7s50J6dD0OJgZ_LDtLUX86IR" style="display: none;"></div>
+                <button type="submit" id="submitBtn">Đăng ký ngay</button>
             </form>
         </div>
     </div>
 </footer>
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<!-- data captcha: 6Lf-wD0rAAAAAFbE7s50J6dD0OJgZ_LDtLUX86IR -->
+<!-- data key: 6Lf-wD0rAAAAAJuSTV9GRRKGPLnBYuR46ic4ZLU4 -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
     $(document).ready(function() {
+        let captchaVisible = false;
+
         function showToast(message, type) {
             const toast = $('<div class="toast"></div>').text(message);
-            toast.addClass(type); 
+            toast.addClass(type);
             $('body').append(toast);
 
             setTimeout(() => {
@@ -227,34 +228,80 @@
                 setTimeout(() => {
                     toast.remove();
                 }, 300);
-            }, 3000);
+            }, 5000);
         }
 
         $('#contactForm').on('submit', function(event) {
-            event.preventDefault(); 
+            event.preventDefault();
 
             const contact = $('#contact').val();
-            const $responseDiv = $('#response');
+            const $captchaDiv = $('#recaptcha-container');
+            const captchaResponse = grecaptcha.getResponse();
+
+            const $submitBtn = $('#submitBtn');
+            $submitBtn.prop('disabled', true); // Vô hiệu hóa nút ngay khi submit
+            $submitBtn.text('Đang gửi...');
 
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailPattern.test(contact)) {
                 showToast('Vui lòng nhập email hợp lệ!', 'error');
+                $submitBtn.prop('disabled', false);
+                $submitBtn.text('Đăng ký ngay');
                 return;
             }
 
-            $responseDiv.html('<p>Đang gửi...</p>');
+            if (!captchaVisible) {
+                $captchaDiv.css('display', 'block');
+                captchaVisible = true;
+                showToast('Vui lòng xác minh "Tôi không phải người máy!', 'error');
+                $submitBtn.prop('disabled', false);
+                $submitBtn.text('Đăng ký ngay');
+                return;
+            }
+
+            if (captchaResponse.length === 0) {
+                showToast('Vui lòng xác minh "Tôi không phải người máy"!', 'error');
+                $submitBtn.prop('disabled', false);
+                $submitBtn.text('Đăng ký ngay');
+                return;
+            }
 
             $.ajax({
                 url: 'send_email.php',
                 type: 'POST',
-                data: { contact: contact },
+                data: { contact: contact, 'g-recaptcha-response': captchaResponse },
                 dataType: 'json',
                 success: function(result) {
-                    // showToast(result.message, 'success');
-                    showToast('Email đã được gửi thành công.', 'success');
+                    showToast(result.message, result.success ? 'success' : 'error');
+                    console.log('Debug Info:', result.debug);
+                    if (!result.success && result.debug) {
+                        let errorDetail = result.debug.error || 'Lỗi không xác định';
+                        if (result.debug.error_codes) {
+                            errorDetail = 'Mã lỗi: ' + result.debug.error_codes.join(', ');
+                        } else if (result.debug.curl_error) {
+                            errorDetail = 'Lỗi kết nối: ' + result.debug.curl_error;
+                        }
+                        showToast('Chi tiết lỗi: ' + errorDetail, 'error');
+                    }
+                    if (result.success) {
+                        $('#contactForm')[0].reset();
+                        grecaptcha.reset();
+                        $('#recaptcha-container').hide();
+                        captchaVisible = false;
+                    }
+                    $submitBtn.prop('disabled', false);
+                    $submitBtn.text('Đăng ký ngay');
                 },
-                error: function() {
-                    showToast('Lỗi khi gửi email!', 'error');
+                error: function(xhr, status, error) {
+                    showToast('Lỗi kết nối server!', 'error');
+                    console.log('AJAX Error:', {
+                        status: status,
+                        error: error,
+                        responseText: xhr.responseText,
+                        statusCode: xhr.status
+                    });
+                    $submitBtn.prop('disabled', false);
+                    $submitBtn.text('Đăng ký ngay');
                 }
             });
         });
